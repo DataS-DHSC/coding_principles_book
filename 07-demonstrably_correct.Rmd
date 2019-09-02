@@ -41,4 +41,4 @@ This can then later be retrieved from your git repository.
 ## Reproducible Analytical Pipelines
 Once you have some QA'd, version controlled and test covered code, the biggest source of error will be the manual steps performed by the analyst running it.
 You can eliminate a lot of this, see
-[Reproducible Analytical Pipelines](#reproducible).
+[Reproducible Analytical Pipelines](#rap).

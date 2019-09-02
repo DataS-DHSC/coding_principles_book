@@ -31,7 +31,7 @@ There are some simple thing you can do to improve the chance that your code runs
 
 ## Reproducible Analytical Pipelines
 There is a government community dedicated to the production of reproducible analysis.
-See [Reproducible Analytical Pipelines](#reproducible) for more.
+See [Reproducible Analytical Pipelines](#rap) for more.
 
 ## Packages and Modules
 Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.
