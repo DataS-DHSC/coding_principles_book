@@ -1,0 +1,27 @@
+# Document Your Work {#documentation}
+Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
+Code without documentation won't be very useful later!
+
+**You Must** - Produce documentation in line with Aqua book guidance.
+
+**You Should** - Assemble documentation as you code.
+
+**You Could** - Use document generation tools to produce documentation.
+
+## Aqua Book Guidance
+The
+[Aqua book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government)
+contains guidance on documentation that should be in place as part of a quality assurance process for any analysis. This includes code based analysis.
+See [Aqua Book Guidance for Technical Documentation](note_aqua_technical_documentation,md) for more.
+
+## Document as you Go
+Don't fall into the trap of assuming documentation is something which is produced at the end.
+The best time to put together the documentation is as you are planning or doing the work - while it is fresh in your mind.
+This also means that switching projects wont result in undocumented work.
+
+## Use a Documentation Generator
+There are popular tools for generating documentation from your code and comments. These lighten the load of producing and publishing good documentation, and encourage you to produce thorough documentation.
+
+There are [many](https://en.wikipedia.org/wiki/Comparison_of_documentation_generators) documentation generators.
+[Doxygen](http://www.doxygen.nl/) or [Roxygen](https://cran.r-project.org/web/packages/roxygen2/)
+are recommended.

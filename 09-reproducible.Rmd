@@ -1,0 +1,38 @@
+# Be Reproducible {#reproducible}
+Within DHSC analysis is used to enable evidence based decision making.
+A piece of evidence which you cannot rely on being able to reproduce is not much good.
+There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.
+
+**You Must** - Keep track of what you have done and document it unambiguously so that someone else can recreate it.
+
+**You Should** - Write portable code, in a standard project structure so that it is _easy_ for someone else to run it.
+
+**You Could** - Turn your code into a package / library / module, learn and promote RAP techniques, or use containers to achieve reproducibility.
+
+## Documenting for reproducibility
+To be able to reproduce your analysis a colleague may need the following:
+
+* The right copy of the code
+* The right versions of any dependencies (i.e. libraries used in the code)
+* The platform on which code is run
+    * operating system
+    * folder structure
+    * machine specifications
+* The source data, or details of how to get it.
+
+At the most basic level, documenting all of these will go a long way to making your analysis reproducible.
+It might not make it _easy_ to reproduce however.
+
+## Portability
+There are some simple thing you can do to improve the chance that your code runs on other computers:
+
+* Use relative paths, not absolute paths. ([Wikipedia - Absolute and Relative Paths](https://en.wikipedia.org/wiki/Path_%28computing%29#Absolute_and_relative_paths)).
+* Use a standard and consistent structure for organising your work. See [Projects and Environments](note_projects_environments.md) for more details.
+
+## Packages and Modules
+Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.
+
+There is no reason you can't use the same approach to sharing your analysis! See [Packages](note_packages.md) for more.
+
+## Containers & Virtual Machines
+Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. See [Containers](note_containers.md) for more.

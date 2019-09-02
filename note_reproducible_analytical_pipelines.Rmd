@@ -1,0 +1,40 @@
+# Reproducible Analytical Pipelines {#rap}
+Automating the steps used to create a your report or output is a good way to avoid the human errors that manual intervention will introduce.
+
+This is the focus of the Reproducible Analytical Pipelines community. The RAP community has curated the following resources:
+
+* [RAP Website](https://ukgovdatascience.github.io/rap-website/)
+* [Udemy Course](https://www.udemy.com/reproducible-analytical-pipelines/)
+
+
+## Automating Pipelines
+You can do this by:
+
+* Designing a final output which can be created without manual intervention.
+
+* Making sure your code is broken down into chunks which do discrete tasks in your pipeline, for example:
+    * gathering
+    * cleaning
+    * processing and modelling
+    * reporting and visualisation
+
+* Taking advantage of tools which keep track of the interactions between your data and code. These tools can then re-run the required bits of your pipeline automatically as you update, correct and improve it.
+
+    * [GNU Make](https://www.gnu.org/software/make/) is the classic tool and is language agnostic, but perhaps not user friendly.
+
+    * The [`drake`](https://ropenscilabs.github.io/drake-manual/) package is designed for analysis pipelines in R.
+
+    * The [`doit`](https://pydoit.org/) package can do the same and more for python. The [python wiki](https://wiki.python.org/moin/ConfigurationAndBuildTools) also has a list of build tools for python.
+
+## Code version linked to outputs
+You might successfully implement an automated pipeline and a reproducible environment. However unless you know which version of these was used to produce an output you might well come unstuck!
+
+Make sure that you can track backwards and determine which version of your code produced a particular output.
+
+You can do this by:
+
+* Use git to version control your code
+* Make 'atomic' commits which relate to individual Changes
+* include the git hash (identifies the code) in the output
+    * R: [git2r](https://docs.ropensci.org/git2r/)
+    * Python: [gitpython](https://gitpython.readthedocs.io/en/stable/)

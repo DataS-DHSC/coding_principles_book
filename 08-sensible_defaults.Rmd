@@ -1,0 +1,21 @@
+# Use Sensible Defaults {#sensible_defaults}
+There are basic tasks we all do. We should do these in the same way to make collaboration easier.
+
+It is not true to say that there is only one right way of tackling a problem, or that one way is the best for all cases. However, collaboration and QA are easier if there is *consistency* in our approaches. That is usually more important than using the absolute best method.
+
+**You Must** - Be aware of the defaults, understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
+
+**You Should** - Help define what the defaults should be, and actively participate in discussion and debate to keep them up to date and relevant.
+
+**You Could** - Proactively review and compare the defaults used
+
+## General Defaults
+* Use 'Tidy' data. See the [tidy data principle](principle_data_structure.md)!
+* Use git for version control of code (rather than SVN, Mercurial etc). See the [version control principle](principle_version_control.md)
+* Use a standardised template for your type of project, this will help people find things. See the [reproducible principle](principle_reproducible.md)
+
+## Language Specific Defaults:
+In addition to the general principles, there are some sensible defaults which are language specific:
+
+* [R](note_defaults_R.md)
+* [Python](note_defaults_python.md)

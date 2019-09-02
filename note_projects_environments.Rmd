@@ -1,0 +1,44 @@
+# Project Structure {#projects}
+Most languages offer tools and templates for different types of project work.
+Typically these include most of the following components:
+
+* Source Data
+* Code
+* Outputs
+* Environment / Dependencies
+* Documentation
+
+By following a standard template for these components you can take advantage of workflow tools provided by your IDE which make it easier to:
+
+* Version Control your work
+* Organise your code and source data
+* Refactoring and improving your code
+* Producing documentation
+* Control your environment and dependencies
+
+All of these things are good for sharing or collaborating with others.
+
+## R
+The dominant IDE for R is Rstudio, which provides Rstudio Projects:
+
+* Guide to [Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+
+Packages
+
+Documentation for
+[usethis](https://usethis.r-lib.org/)
+
+renv & packrat
+
+
+
+## Python
+Python has many different options, all supported by different IDEs and tools
+
+Anaconda & Conda Projects:
+[Getting started with Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+
+Pycharm Projects:
+[Pycharm Projects](https://www.jetbrains.com/help/pycharm/project.html)
+
+venv

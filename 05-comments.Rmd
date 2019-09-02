@@ -1,0 +1,29 @@
+# Comment Effectively {#comments}
+The function of your code should be clear to another team member.
+Comments can be invaluable for capturing why a bit of code exists and what it is doing.
+However, they can also get in the way if there are too many of them or they are inconsistent with the code.
+Comments aren't just for other people, imagine if you return to your code in a years time – would you understand it?
+
+**You Must** - Comment your code.
+
+**You Should** - Think about _why_ you are leaving comments, what to capture, and what belongs elsewhere.
+
+**You Could** - Review old code you have written - are the comments helpful? what would you include next time?
+
+## Comment Style
+Use comments judiciously and look to your [style guide](note_style_guides.md) for advice on how to comment.
+
+## What to Capture
+Ask yourself: “will I understand this code in 3 years time?”
+
+Comments should bridge the gap between the documentation and the code. They should   be written in plain English and describe the logic and purpose of each chunk of code; i.e. where it fits in and why its there.
+
+### What not to Capture
+You don't need to describe everything you are doing with the code in a comment. Someone reading the code should be literate in the language. Commenting extensively line by line makes it likely that code and comments will get out of sync when you go back and make changes.
+
+There should be separate documentation for high level questions such as the structure or logic of the analysis. Don't write your plan or QA notes in the comments.
+
+Don't store large chunks of alternate code in the comments. Leave that to your version control system.
+
+## Alternatives
+If you find yourself writing extensive comments, or writing more comments than code, consider changing format. There are options such as [Jupyter Notebooks](https://jupyter.org/), and [Rmarkdown](https://rmarkdown.rstudio.com/) for combining analysis and prose.

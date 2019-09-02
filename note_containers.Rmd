@@ -1,0 +1,3 @@
+# Containers / Docker {#containers}
+
+[Docker](https://www.docker.com/) - is a [containerisation](https://en.wikipedia.org/wiki/OS-level_virtualisation) platform, which lets you reproduce environments with a wider scope than just the packages present. With Docker you can manage the entire environment from the operating system and network up (including any packages). You can even use tools such as [docker-compose](https://docs.docker.com/compose/) to manage groups of containers relative to one another.

@@ -1,0 +1,12 @@
+# DHSC Sensible Defaults for R {#r_defaults}
+The following are the DHSC [sensible defaults](principle_sensible_defaults.md) for R:
+
+* Always work in a project
+
+* Default to packages from the [Tidyverse](http://tidyverse.org/), because they have been carefully designed to work together effectively as part of a modern data analysis workflow. More info can be found here: [R for Data Science by Hadley Wickham](http://r4ds.had.co.nz). For example:
+   * Prefer tibbles to data.frames
+   * Use ggplot2 rather than base graphics
+   * Use the pipe `%>%` rather than nesting function calls, but not always e.g. see [here](https://twitter.com/hadleywickham/status/603883121197514752).
+   * Prefer `purrr` to the `apply` family of functions. See [here](http://r4ds.had.co.nz/iteration.html#the-map-functions)
+
+* If possible, build an R [Package](http://r-pkgs.had.co.nz/) to share and document your code. Packages are the fundamental unit of reproducible R code.

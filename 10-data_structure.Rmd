@@ -1,0 +1,44 @@
+# Use Appropriate and Tidy Data{#data_structure}
+Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
+At DHSC we are working with data represented in tables. For this type of work, using 'Tidy' data is usually the best approach.
+
+**You Must** - Know what 'Tidy' data is, and understand why it is valuable.
+
+**You Should** - Be familiar with the data types and structures available to you and ensure that you use the right ones.
+
+**You Could** - Think about relationships between datasets, design schemas and store data in an efficient way.
+
+
+## Tidy Data?
+A dataset is a collection of values, usually either numbers (if quantitative) or strings (if qualitative). Values are organised in two ways Every value belongs to a *variable* and an *observation*:
+
+* A variable contains all values that measure the same underlying attribute (like height, temperature, duration) across units.
+* An observation contains all values measured on the same *unit* (like a person, or a day, or a race) across attributes.
+
+The majority of data we work with comes in rectangles. For this data to be tidy, ensure that:
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+For more see the section on *Tidy Data* in [R for Data Science](https://r4ds.had.co.nz/tidy-data.html) or the [original paper](http://vita.had.co.nz/papers/tidy-data.pdf).
+
+Use tidy data structures as part of your work. You should attempt to convert incoming data into tidy format as quickly as possible.
+Any data that is output that may be used in other projects should be in tidy format as well as any other required formats.
+
+## Data Types and Structures
+Data *types* are the basic units which your language uses to store data, things like integers, doubles, strings and logical data. Typically you are working with data frames, arrays, matricies or lists. These hold multiple items of data in a data *structure*.
+
+Different types and structures are used for different things, and have different capabilities. To be effective, know about the data types and structures available to you and use the right ones for the job!
+
+### R
+The R Programming for Data Science book has a good section on the '[Nuts and Bolts](https://bookdown.org/rdpeng/rprogdatascience/r-nuts-and-bolts.html#r-objects)' of R which covers types and structures.
+For more about the different data structures a good resource is the [Advanced R ](http://adv-r.had.co.nz/Data-structures.html) book.
+
+### Python
+For a list of python datatypes see the:
+
+* [Python Documentation](https://docs.python.org/3/library/datatypes.html)
+* [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html)
+
+## Schema
+The R for data science book has a nice section on [relational data](https://r4ds.had.co.nz/relational-data.html).

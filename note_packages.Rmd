@@ -1,0 +1,5 @@
+# Packages and Modules {#packages}
+
+Python - [Packaging Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+R - [R Packages](https://r-pkgs.org/)

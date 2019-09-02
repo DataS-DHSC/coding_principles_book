@@ -1,0 +1,40 @@
+# Write Flexible Code {#flexible_code}
+Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later.
+
+This does **not** mean trying to solve every conceivable problem up-front, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
+
+**You Must** - Break your code into chunks, each with a clear purpose and don't repeat yourself. Think about, and document the way your code might break with different inputs.
+
+**You Should** - Include input validation in your code.
+
+**You Could** - Implement and test thorough error handling. Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
+
+
+##  Break up your code and don't repeat yourself
+[Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a common idea in programming. Instead of writing a bit of code several times to repeat an operation, you would re-use the same code by turning it into a function (or some other re-useable chunk - a method or subroutines).
+
+You should look to break up your code into chunks rather than working in a single long script or program.
+Each chunk of code should have a clear purpose.
+You can then use call on these chunks of code to build your analysis.
+
+There are many reasons to do this:
+
+* It's easier to see the structure of your code.  
+* It's easier to make changes to your code.
+* It's easier to understand what has changed and what the effect is.
+* You only have to document each chunk once.
+
+There are some common [coding styles](coding_styles.md) for breaking down a program into chunks.
+
+## Error Handling
+Its likely your code will be asked to do something you didn't design it for, and it will break.
+
+You do know however what your code *should* be doing, what the input is expected to look like, and the properties of the output. You also probably have an idea of what your would *like* it to do when it doesn't work correctly.
+
+You can use error or [exception handling](https://en.wikipedia.org/wiki/Exception_handling_syntax) to control the errors and warnings that your code produces.
+This can allow you to and choose:
+* Where your code breaks - by adding validation to a function input
+* How your code breaks - by providing alternate code to be run in the event of an error.
+* What it tells a user - by providing your own error messages which guide the user to a solution
+
+There are automated techniques such as [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) available to check how your code and error handling responds to different inputs.
