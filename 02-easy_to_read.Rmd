@@ -2,7 +2,7 @@
 
 Keep your code easy to read by using sensible names and a consistent style.
 
-**You Must** - Use meaningful names and follow the [DHSC adopted style](note_style_guides.md) for your language.
+**You Must** - Use meaningful names and follow the [DHSC adopted style](#style_guides) for your language.
 
 **You Should** - Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide.
 
@@ -16,7 +16,7 @@ Most languages have several available style guides, which define a set of conven
 * Add comment blocks at the start of your code
 * Favour named indexes and iterators
 
-DHSC has adopted a single style for each language to promote consistency. See [style guides](note_style_guides.md) for more.
+DHSC has adopted a single style for each language to promote consistency. See [style guides](#style_guides) for more.
 
 ## Meaningful Names
 Names convey meaning, naming functions & variables well can remove the need for

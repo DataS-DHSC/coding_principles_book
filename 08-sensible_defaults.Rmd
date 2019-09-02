@@ -10,12 +10,12 @@ It is not true to say that there is only one right way of tackling a problem, or
 **You Could** - Proactively review and compare the defaults used
 
 ## General Defaults
-* Use 'Tidy' data. See the [tidy data principle](principle_data_structure.md)!
-* Use git for version control of code (rather than SVN, Mercurial etc). See the [version control principle](principle_version_control.md)
-* Use a standardised template for your type of project, this will help people find things. See the [reproducible principle](principle_reproducible.md)
+* Use 'Tidy' data. See the [tidy data principle](#data_structure)!
+* Use git for version control of code (rather than SVN, Mercurial etc). See the [version control principle](#version_control)
+* Use a standardised template for your type of project, this will help people find things. See the [reproducible principle](#reproducible)
 
 ## Language Specific Defaults:
 In addition to the general principles, there are some sensible defaults which are language specific:
 
-* [R](note_defaults_R.md)
-* [Python](note_defaults_python.md)
+* [R](#defaults_R)
+* [Python](#defaults_python)

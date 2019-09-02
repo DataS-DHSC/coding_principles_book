@@ -27,12 +27,16 @@ It might not make it _easy_ to reproduce however.
 There are some simple thing you can do to improve the chance that your code runs on other computers:
 
 * Use relative paths, not absolute paths. ([Wikipedia - Absolute and Relative Paths](https://en.wikipedia.org/wiki/Path_%28computing%29#Absolute_and_relative_paths)).
-* Use a standard and consistent structure for organising your work. See [Projects and Environments](note_projects_environments.md) for more details.
+* Use a standard and consistent structure for organising your work. See [Projects and Environments](#projects) for more details.
+
+## Reproducible Analytical Pipelines
+There is a government community dedicated to the production of reproducible analysis.
+See [Reproducible Analytical Pipelines](#reproducible) for more.
 
 ## Packages and Modules
 Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.
 
-There is no reason you can't use the same approach to sharing your analysis! See [Packages](note_packages.md) for more.
+There is no reason you can't use the same approach to sharing your analysis! See [Packages](#packages) for more.
 
 ## Containers & Virtual Machines
-Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. See [Containers](note_containers.md) for more.
+Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. See [Containers](#containers) for more.

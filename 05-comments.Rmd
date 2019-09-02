@@ -11,7 +11,7 @@ Comments aren't just for other people, imagine if you return to your code in a y
 **You Could** - Review old code you have written - are the comments helpful? what would you include next time?
 
 ## Comment Style
-Use comments judiciously and look to your [style guide](note_style_guides.md) for advice on how to comment.
+Use comments judiciously and look to your [style guide](#style_guides) for advice on how to comment.
 
 ## What to Capture
 Ask yourself: “will I understand this code in 3 years time?”

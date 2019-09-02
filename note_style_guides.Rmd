@@ -1,0 +1,20 @@
+# DHSC Adopted Style Guides {#style_guides}
+In line with the [easy to read](#easy_to_read) principle DHSC has adopted a single style guide for each language.
+Please use this style; consistency will make it easier for colleagues to understand, QA and improve your code!
+
+| Language 	| DHSC Adopted Style Guide 	|
+|----------	|--------------------------	|
+| R        	| [tidyverse style guide](https://style.tidyverse.org/)|
+| Python   	| [PEP-8](https://www.python.org/dev/peps/pep-0008/) |
+
+If you or your team think that the style decision is wrong - please get in touch!
+
+# Linters & Code Formatters
+[Linters](https://en.wikipedia.org/wiki/Lint_%28software%29) are tools that you can use to ensure that you are following a given style guide. The following are recommended:
+
+## R
+Styler - http://styler.r-lib.org/
+
+
+## Python
+Black - https://pypi.org/project/black/

@@ -1,5 +1,5 @@
 # DHSC Sensible Defaults for R {#r_defaults}
-The following are the DHSC [sensible defaults](principle_sensible_defaults.md) for R:
+The following are the DHSC [sensible defaults](#sensible_defaults) for R:
 
 * Always work in a project
 

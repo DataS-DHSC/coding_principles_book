@@ -10,7 +10,7 @@ Write code with your colleagues in mind. They need your code to work correctly, 
 
 ## Correct
 The first priority should always be that the code is correct.
-See the [demonstably correct](principle_demonstrably_correct.md) principle.
+See the [demonstably correct](#demonsrably_correct) principle.
 
 ## Clear
 It is more valuable to have code that other analysts can quickly understand, than code which runs a little quicker.
