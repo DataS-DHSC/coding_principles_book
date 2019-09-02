@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Principle 9 Be Reproducible | DHSC Coding Principles</title>
+  <meta name="description" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  
+  
+  
+
+<meta name="author" content="Matthew Malcher" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="sensible-defaults.html"/>
+<link rel="next" href="data-structure.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a></li>
+<li class="part"><span><b>Principles</b></span></li>
+<li class="chapter" data-level="1" data-path="version-control.html"><a href="version-control.html"><i class="fa fa-check"></i><b>1</b> Use Version Control</a><ul>
+<li class="chapter" data-level="1.1" data-path="version-control.html"><a href="version-control.html#git---program-for-version-control"><i class="fa fa-check"></i><b>1.1</b> Git - (program for version control)</a></li>
+<li class="chapter" data-level="1.2" data-path="version-control.html"><a href="version-control.html#github---service-for-storing-code-version-controlled-using-git"><i class="fa fa-check"></i><b>1.2</b> GitHub - (service for storing code version controlled using git)</a></li>
+<li class="chapter" data-level="1.3" data-path="version-control.html"><a href="version-control.html#using-git-github-effectively"><i class="fa fa-check"></i><b>1.3</b> Using Git &amp; GitHub Effectively</a></li>
+<li class="chapter" data-level="1.4" data-path="version-control.html"><a href="version-control.html#code-in-the-open"><i class="fa fa-check"></i><b>1.4</b> Code in the Open</a></li>
+<li class="chapter" data-level="1.5" data-path="version-control.html"><a href="version-control.html#manual-version-control"><i class="fa fa-check"></i><b>1.5</b> Manual Version Control</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="easy-to-read.html"><a href="easy-to-read.html"><i class="fa fa-check"></i><b>2</b> Write Easy to Read Code</a><ul>
+<li class="chapter" data-level="2.1" data-path="easy-to-read.html"><a href="easy-to-read.html#style-guides"><i class="fa fa-check"></i><b>2.1</b> Style Guides</a></li>
+<li class="chapter" data-level="2.2" data-path="easy-to-read.html"><a href="easy-to-read.html#meaningful-names"><i class="fa fa-check"></i><b>2.2</b> Meaningful Names</a></li>
+<li class="chapter" data-level="2.3" data-path="easy-to-read.html"><a href="easy-to-read.html#name-formats"><i class="fa fa-check"></i><b>2.3</b> Name Formats</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="correct-clear-concise.html"><a href="correct-clear-concise.html"><i class="fa fa-check"></i><b>3</b> Correct, Clear, Fast &amp; Concise - In That Order</a><ul>
+<li class="chapter" data-level="3.1" data-path="correct-clear-concise.html"><a href="correct-clear-concise.html#correct"><i class="fa fa-check"></i><b>3.1</b> Correct</a></li>
+<li class="chapter" data-level="3.2" data-path="correct-clear-concise.html"><a href="correct-clear-concise.html#clear"><i class="fa fa-check"></i><b>3.2</b> Clear</a></li>
+<li class="chapter" data-level="3.3" data-path="correct-clear-concise.html"><a href="correct-clear-concise.html#fast"><i class="fa fa-check"></i><b>3.3</b> Fast</a></li>
+<li class="chapter" data-level="3.4" data-path="correct-clear-concise.html"><a href="correct-clear-concise.html#concise"><i class="fa fa-check"></i><b>3.4</b> Concise</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="flexible-code.html"><a href="flexible-code.html"><i class="fa fa-check"></i><b>4</b> Write Flexible Code</a><ul>
+<li class="chapter" data-level="4.1" data-path="flexible-code.html"><a href="flexible-code.html#break-up-your-code-and-dont-repeat-yourself"><i class="fa fa-check"></i><b>4.1</b> Break up your code and don’t repeat yourself</a></li>
+<li class="chapter" data-level="4.2" data-path="flexible-code.html"><a href="flexible-code.html#error-handling"><i class="fa fa-check"></i><b>4.2</b> Error Handling</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="comments.html"><a href="comments.html"><i class="fa fa-check"></i><b>5</b> Comment Effectively</a><ul>
+<li class="chapter" data-level="5.1" data-path="comments.html"><a href="comments.html#comment-style"><i class="fa fa-check"></i><b>5.1</b> Comment Style</a></li>
+<li class="chapter" data-level="5.2" data-path="comments.html"><a href="comments.html#what-to-capture"><i class="fa fa-check"></i><b>5.2</b> What to Capture</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="comments.html"><a href="comments.html#what-not-to-capture"><i class="fa fa-check"></i><b>5.2.1</b> What not to Capture</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="comments.html"><a href="comments.html#alternatives"><i class="fa fa-check"></i><b>5.3</b> Alternatives</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>6</b> Document Your Work</a><ul>
+<li class="chapter" data-level="6.1" data-path="documentation.html"><a href="documentation.html#aqua-book-guidance"><i class="fa fa-check"></i><b>6.1</b> Aqua Book Guidance</a></li>
+<li class="chapter" data-level="6.2" data-path="documentation.html"><a href="documentation.html#document-as-you-go"><i class="fa fa-check"></i><b>6.2</b> Document as you Go</a></li>
+<li class="chapter" data-level="6.3" data-path="documentation.html"><a href="documentation.html#use-a-documentation-generator"><i class="fa fa-check"></i><b>6.3</b> Use a Documentation Generator</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html"><i class="fa fa-check"></i><b>7</b> Be Demonstrably Correct</a><ul>
+<li class="chapter" data-level="7.1" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html#qa-applies-to-code"><i class="fa fa-check"></i><b>7.1</b> QA Applies to Code</a></li>
+<li class="chapter" data-level="7.2" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html#testing-frameworks"><i class="fa fa-check"></i><b>7.2</b> Testing Frameworks</a></li>
+<li class="chapter" data-level="7.3" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html#version-control-integration"><i class="fa fa-check"></i><b>7.3</b> Version Control Integration</a></li>
+<li class="chapter" data-level="7.4" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html#reproducible-analytical-pipelines"><i class="fa fa-check"></i><b>7.4</b> Reproducible Analytical Pipelines</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="sensible-defaults.html"><a href="sensible-defaults.html"><i class="fa fa-check"></i><b>8</b> Use Sensible Defaults</a><ul>
+<li class="chapter" data-level="8.1" data-path="sensible-defaults.html"><a href="sensible-defaults.html#general-defaults"><i class="fa fa-check"></i><b>8.1</b> General Defaults</a></li>
+<li class="chapter" data-level="8.2" data-path="sensible-defaults.html"><a href="sensible-defaults.html#language-specific-defaults"><i class="fa fa-check"></i><b>8.2</b> Language Specific Defaults:</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="reproducible.html"><a href="reproducible.html"><i class="fa fa-check"></i><b>9</b> Be Reproducible</a><ul>
+<li class="chapter" data-level="9.1" data-path="reproducible.html"><a href="reproducible.html#documenting-for-reproducibility"><i class="fa fa-check"></i><b>9.1</b> Documenting for reproducibility</a></li>
+<li class="chapter" data-level="9.2" data-path="reproducible.html"><a href="reproducible.html#portability"><i class="fa fa-check"></i><b>9.2</b> Portability</a></li>
+<li class="chapter" data-level="9.3" data-path="reproducible.html"><a href="reproducible.html#packages-and-modules"><i class="fa fa-check"></i><b>9.3</b> Packages and Modules</a></li>
+<li class="chapter" data-level="9.4" data-path="reproducible.html"><a href="reproducible.html#containers-virtual-machines"><i class="fa fa-check"></i><b>9.4</b> Containers &amp; Virtual Machines</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="data-structure.html"><a href="data-structure.html"><i class="fa fa-check"></i><b>10</b> Use Appropriate and Tidy Data</a><ul>
+<li class="chapter" data-level="10.1" data-path="data-structure.html"><a href="data-structure.html#tidy-data"><i class="fa fa-check"></i><b>10.1</b> Tidy Data?</a></li>
+<li class="chapter" data-level="10.2" data-path="data-structure.html"><a href="data-structure.html#data-types-and-structures"><i class="fa fa-check"></i><b>10.2</b> Data Types and Structures</a><ul>
+<li class="chapter" data-level="10.2.1" data-path="data-structure.html"><a href="data-structure.html#r"><i class="fa fa-check"></i><b>10.2.1</b> R</a></li>
+<li class="chapter" data-level="10.2.2" data-path="data-structure.html"><a href="data-structure.html#python"><i class="fa fa-check"></i><b>10.2.2</b> Python</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="data-structure.html"><a href="data-structure.html#schema"><i class="fa fa-check"></i><b>10.3</b> Schema</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="aqua.html"><a href="aqua.html"><i class="fa fa-check"></i><b>A</b> Aqua Book Guidance for Technical Documentation:</a></li>
+<li class="chapter" data-level="B" data-path="coding-styles.html"><a href="coding-styles.html"><i class="fa fa-check"></i><b>B</b> Coding styles</a></li>
+<li class="chapter" data-level="C" data-path="containers.html"><a href="containers.html"><i class="fa fa-check"></i><b>C</b> Containers / Docker</a></li>
+<li class="chapter" data-level="D" data-path="python-defaults.html"><a href="python-defaults.html"><i class="fa fa-check"></i><b>D</b> DHSC Sensible Defaults for Python</a></li>
+<li class="chapter" data-level="E" data-path="r-defaults.html"><a href="r-defaults.html"><i class="fa fa-check"></i><b>E</b> DHSC Sensible Defaults for R</a></li>
+<li class="chapter" data-level="F" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>F</b> Packages and Modules</a></li>
+<li class="chapter" data-level="G" data-path="projects.html"><a href="projects.html"><i class="fa fa-check"></i><b>G</b> Project Structure</a><ul>
+<li class="chapter" data-level="G.1" data-path="projects.html"><a href="projects.html#r-1"><i class="fa fa-check"></i><b>G.1</b> R</a></li>
+<li class="chapter" data-level="G.2" data-path="projects.html"><a href="projects.html#python-1"><i class="fa fa-check"></i><b>G.2</b> Python</a></li>
+</ul></li>
+<li class="chapter" data-level="H" data-path="rap.html"><a href="rap.html"><i class="fa fa-check"></i><b>H</b> Reproducible Analytical Pipelines</a><ul>
+<li class="chapter" data-level="H.1" data-path="rap.html"><a href="rap.html#automating-pipelines"><i class="fa fa-check"></i><b>H.1</b> Automating Pipelines</a></li>
+<li class="chapter" data-level="H.2" data-path="rap.html"><a href="rap.html#code-version-linked-to-outputs"><i class="fa fa-check"></i><b>H.2</b> Code version linked to outputs</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DHSC Coding Principles</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="reproducible" class="section level1">
+<h1><span class="header-section-number">Principle 9</span> Be Reproducible</h1>
+<p>Within DHSC analysis is used to enable evidence based decision making. A piece of evidence which you cannot rely on being able to reproduce is not much good. There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.</p>
+<p><strong>You Must</strong> - Keep track of what you have done and document it unambiguously so that someone else can recreate it.</p>
+<p><strong>You Should</strong> - Write portable code, in a standard project structure so that it is <em>easy</em> for someone else to run it.</p>
+<p><strong>You Could</strong> - Turn your code into a package / library / module, learn and promote RAP techniques, or use containers to achieve reproducibility.</p>
+<div id="documenting-for-reproducibility" class="section level2">
+<h2><span class="header-section-number">9.1</span> Documenting for reproducibility</h2>
+<p>To be able to reproduce your analysis a colleague may need the following:</p>
+<ul>
+<li>The right copy of the code</li>
+<li>The right versions of any dependencies (i.e. libraries used in the code)</li>
+<li>The platform on which code is run
+<ul>
+<li>operating system</li>
+<li>folder structure</li>
+<li>machine specifications</li>
+</ul></li>
+<li>The source data, or details of how to get it.</li>
+</ul>
+<p>At the most basic level, documenting all of these will go a long way to making your analysis reproducible. It might not make it <em>easy</em> to reproduce however.</p>
+</div>
+<div id="portability" class="section level2">
+<h2><span class="header-section-number">9.2</span> Portability</h2>
+<p>There are some simple thing you can do to improve the chance that your code runs on other computers:</p>
+<ul>
+<li>Use relative paths, not absolute paths. (<a href="https://en.wikipedia.org/wiki/Path_%28computing%29#Absolute_and_relative_paths">Wikipedia - Absolute and Relative Paths</a>).</li>
+<li>Use a standard and consistent structure for organising your work. See <a href="note_projects_environments.md">Projects and Environments</a> for more details.</li>
+</ul>
+</div>
+<div id="packages-and-modules" class="section level2">
+<h2><span class="header-section-number">9.3</span> Packages and Modules</h2>
+<p>Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.</p>
+<p>There is no reason you can’t use the same approach to sharing your analysis! See <a href="note_packages.md">Packages</a> for more.</p>
+</div>
+<div id="containers-virtual-machines" class="section level2">
+<h2><span class="header-section-number">9.4</span> Containers &amp; Virtual Machines</h2>
+<p>Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. See <a href="note_containers.md">Containers</a> for more.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="sensible-defaults.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-structure.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

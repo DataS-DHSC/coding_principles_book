@@ -1,31 +1,28 @@
 # (APPENDIX) Appendix {-} 
 
-Test
+<!-- ```{r child = 'note_aqua_technical_documentation.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_aqua_technical_documentation.Rmd'}
-```
+<!-- ```{r child = 'note_coding_styles.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_reproducible_analytical_pipelines.Rmd'}
-```
+<!-- ```{r child = 'note_containers.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_coding_styles.Rmd'}
-```
+<!-- ```{r child = 'note_defaults_python.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_containers.Rmd'}
-```
+<!-- ```{r child = 'note_defaults_R.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_defaults_python.Rmd'}
-```
+<!-- ```{r child = 'note_packages.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_defaults_R.Rmd'}
-```
+<!-- ```{r child = 'note_projects_environments.Rmd'} -->
+<!-- ``` -->
 
-```{r child = 'note_packages.Rmd'}
-```
-
-```{r child = 'note_projects_environments.Rmd'}
-```
-
+<!-- ```{r child = 'note_reproducible_analytical_pipelines.Rmd'} -->
+<!-- ``` -->
 
 
 
