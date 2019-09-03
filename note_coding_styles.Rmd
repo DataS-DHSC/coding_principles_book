@@ -1,6 +1,0 @@
-# Coding styles {#coding_styles}
-There are many different styles for breaking a program down into chunks:
-
-* [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming) where programs are defined as a series of functions with defined inputs and outputs.
-* [Object Orientated Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) where programs are built on the concept of objects, which can contain data and procedures or methods for interacting with other objects.
-* [Procedural Programming](https://en.wikipedia.org/wiki/Procedural_programming) where you provide a series of steps or procedures or routines to be carried out, which could be broken down further into steps or subroutines
