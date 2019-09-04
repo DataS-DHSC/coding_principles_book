@@ -7,7 +7,7 @@ output:
   bookdown::pdf_book: default
   bookdown::gitbook: 
     config:
-      download: ["dhsc_coding_principles.pdf"]
+      download: null 
 ---
 
 # Introduction {-}
