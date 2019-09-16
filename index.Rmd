@@ -8,6 +8,9 @@ output:
   bookdown::gitbook: 
     config:
       download: null 
+      toc:
+        collapse: section
+        scroll_highlight: yes
 ---
 
 # Introduction {-}
@@ -19,6 +22,80 @@ Adoption of these principles should improve quality, facilitate collaboration an
 The principles are designed to be achievable by all DHSC analysts producing code. Each Principle is flexible and has multiple levels:
 
 * **Must** - you aren't finished until your code has met this standard.
+
 * **Should** - do this unless you are ready to justify not doing so.
+
 * **Could** - things you can do to improve your code beyond the base standard.
 
+# The Principles {-}
+
+**1) [Use Version Control]**
+
+(ref:versioncontrolintro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions.Doing version control well can be tricky, fortunately, there are tools to help you.
+
+(ref:versioncontrolintro)
+
+**2) [Write Easy to Read Code]**
+
+(ref:easytoreadintro) Keep your code easy to read by using sensible names and a consistent style.
+
+(ref:easytoreadintro)
+
+**3) [Correct, Clear, Fast & Concise - In That Order]**
+
+(ref:correctclearconciseintro) Write code with your colleagues in mind. They need your code to work correctly, and they will have to understand and check it before they can derive benefit from it being fast or concise. Choose clarity over cleverness – just because you can do it in one line doesn’t mean you should.
+
+(ref:correctclearconciseintro)
+
+**4) [Write Flexible Code]**
+
+(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later. This does **not** mean trying to solve every conceivable problem up-front, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
+
+(ref:flexiblecodeintro)
+
+**5) [Comment Effectively]**
+
+(ref:commentsintro) The function of your code should be clear to another team member.
+Comments can be invaluable for capturing why a bit of code exists and what it is doing.
+However, they can also get in the way if there are too many of them or they are inconsistent with the code.
+Comments aren't just for other people, imagine if you return to your code in a years time – would you understand it?
+
+(ref:commentsintro)
+
+
+**6) [Document Your Work]**
+
+(ref:documentationintro) Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
+Code without documentation won't be very useful later!
+
+(ref:documentationintro)
+
+**7) [Be Demonstrably Correct]**
+
+(ref:demonstrablycorrectintro) We need to be confident in the outputs we provide.
+Just because something is done with code doesn't mean it is more likely to be answering the right question, using the right inputs, or doing the calculation correctly.
+As with any analysis, the defence against this is having a clear and robust audit trail which can _demonstrate_ that our output is correct.
+
+(ref:demonstrablycorrectintro)
+
+**8) [Use Sensible Defaults]**
+
+(ref:sensibledefaultsintro) There are basic tasks we all do. We should do these in the same way to make collaboration easier.
+It is not true to say that there is only one right way of tackling a problem, or that one way is the best for all cases. However, collaboration and QA are easier if there is *consistency* in our approaches. That is usually more important than using the absolute best method.
+
+(ref:sensibledefaultsintro)
+
+**9) [Be Reproducible]**
+
+(ref:reproducibleintro) Within DHSC analysis is used to enable evidence based decision making.
+A piece of evidence which you cannot rely on being able to reproduce is not much good.
+There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.
+
+(ref:reproducibleintro)
+
+**10) [Use Appropriate and Tidy Data]**
+
+(ref:datastructuresintro) Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
+At DHSC we are working with data represented in tables. For this type of work, using 'Tidy' data is usually the best approach.
+
+(ref:datastructuresintro)
