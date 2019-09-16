@@ -27,7 +27,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 * **Could** - things you can do to improve your code beyond the base standard.
 
-# The Principles {-}
+# Principles Overview {-}
 
 **1) [Use Version Control]**
 

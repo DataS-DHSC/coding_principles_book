@@ -1,4 +1,4 @@
-# (PART\*) Principles {-}
+# (PART\*) The Principles {-}
 # Use Version Control {#version_control}
 
 (ref:versioncontrolintro)
