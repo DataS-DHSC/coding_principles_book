@@ -1,7 +1,6 @@
 # Use Sensible Defaults {#sensible_defaults}
-There are basic tasks we all do. We should do these in the same way to make collaboration easier.
 
-It is not true to say that there is only one right way of tackling a problem, or that one way is the best for all cases. However, collaboration and QA are easier if there is *consistency* in our approaches. That is usually more important than using the absolute best method.
+(ref:sensibledefaultsintro)
 
 **You Must** - Be aware of the defaults, understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
 

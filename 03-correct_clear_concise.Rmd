@@ -1,6 +1,6 @@
 # Correct, Clear, Fast & Concise - In That Order {#correct_clear_concise}
 
-Write code with your colleagues in mind. They need your code to work correctly, and they will have to understand and check it before they can derive benefit from it being fast or concise. Choose clarity over cleverness – just because you can do it in one line doesn’t mean you should.
+(ref:correctclearconciseintro)
 
 **You Must** - Write code with these priorities in mind.
 

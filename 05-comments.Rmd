@@ -1,8 +1,6 @@
 # Comment Effectively {#comments}
-The function of your code should be clear to another team member.
-Comments can be invaluable for capturing why a bit of code exists and what it is doing.
-However, they can also get in the way if there are too many of them or they are inconsistent with the code.
-Comments aren't just for other people, imagine if you return to your code in a years time – would you understand it?
+
+(ref:commentsintro)
 
 **You Must** - Comment your code.
 

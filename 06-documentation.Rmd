@@ -1,6 +1,6 @@
 # Document Your Work {#documentation}
-Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
-Code without documentation won't be very useful later!
+
+(ref:documentationintro)
 
 **You Must** - Produce documentation in line with Aqua book guidance.
 

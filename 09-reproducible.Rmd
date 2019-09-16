@@ -1,7 +1,6 @@
 # Be Reproducible {#reproducible}
-Within DHSC analysis is used to enable evidence based decision making.
-A piece of evidence which you cannot rely on being able to reproduce is not much good.
-There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.
+
+(ref:reproducibleintro)
 
 **You Must** - Keep track of what you have done and document it unambiguously so that someone else can recreate it.
 

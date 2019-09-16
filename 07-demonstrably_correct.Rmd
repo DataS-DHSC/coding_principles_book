@@ -1,7 +1,6 @@
 # Be Demonstrably Correct {#demonstrably_correct}
-We need to be confident in the outputs we provide.
-Just because something is done with code doesn't mean it is more likely to be answering the right question, using the right inputs, or doing the calculation correctly.
-As with any analysis, the defence against this is having a clear and robust audit trail which can _demonstrate_ that our output is correct.
+
+(ref:demonstrablycorrectintro)
 
  **You Must** - Hold your code to the same standard as regular analysis and record evidence demonstrating it produces the right output.
 

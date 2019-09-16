@@ -1,6 +1,6 @@
-# Use Appropriate and Tidy Data{#data_structure}
-Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
-At DHSC we are working with data represented in tables. For this type of work, using 'Tidy' data is usually the best approach.
+# Use Appropriate and Tidy Data {#data_structure}
+
+(ref:datastructuresintro)
 
 **You Must** - Know what 'Tidy' data is, and understand why it is valuable.
 

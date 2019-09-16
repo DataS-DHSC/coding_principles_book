@@ -1,7 +1,6 @@
 # Write Flexible Code {#flexible_code}
-Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later.
 
-This does **not** mean trying to solve every conceivable problem up-front, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
+(ref:flexiblecodeintro)
 
 **You Must** - Break your code into chunks, each with a clear purpose and don't repeat yourself. Think about, and document the way your code might break with different inputs.
 

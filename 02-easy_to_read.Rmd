@@ -1,6 +1,6 @@
 # Write Easy to Read Code {#easy_to_read}
 
-Keep your code easy to read by using sensible names and a consistent style.
+(ref:easytoreadintro)
 
 **You Must** - Use meaningful names and follow the [DHSC adopted style](#style_guides) for your language.
 
