@@ -4,7 +4,9 @@
 (ref:versioncontrolintro)
 
 **You Must** - Use version control and follow guidance on coding in the open.
+
 **You Should** - Use standard tools (Git & GitHub) to help you version control code.
+
 **You Could** - Use Git & GitHub collaboratively and agree a version control pattern with your team.
 
 ## Git - (program for version control)
