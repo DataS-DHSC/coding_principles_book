@@ -4,7 +4,7 @@ author: "Matthew Malcher  "
 site: bookdown::bookdown_site
 documentclass: book
 output:
-  bookdown::pdf_book: default
+  #bookdown::pdf_book: default
   bookdown::gitbook: 
     config:
       download: null 
