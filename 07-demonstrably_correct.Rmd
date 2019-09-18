@@ -2,16 +2,16 @@
 
 (ref:demonstrablycorrectintro)
 
- **You Must** - Hold your code to the same standard as regular analysis and record evidence demonstrating it produces the right output.
+ **You Must** - Hold your code to the [same standard as regular analysis](#qa_code_too) and record evidence demonstrating it produces the right output.
 
- **You Should** - Use version control to unambiguously link QA to code and outputs and construct automated tests to provide confidence that changes don't break things.
+ **You Should** - Use [version control](#version_control) to unambiguously link QA to code and outputs and construct [automated tests](#unit_tests) to provide confidence that changes don't break things.
 
- **You Could** - Make a fully automated reproducible analytical pipeline (RAP).
+ **You Could** - Make a fully automated [reproducible analytical pipeline (RAP)](#rap_demonstrable).
  
  |Related Areas: 	| [Version Control](#version_control) <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|
 
-## QA Applies to Code
+## QA Applies to Code {#qa_code_too}
 Code is not exempt from Quality Assurance processes. As with any other analysis you need to record evidence that your code is:
 
 * doing the right thing,
@@ -19,7 +19,7 @@ Code is not exempt from Quality Assurance processes. As with any other analysis 
 * using valid inputs
 * producing a sensible answer
 
-## Testing Frameworks
+## Testing Frameworks {#unit_tests}
 Your code and analysis will grow and evolve. You wont have time to QA every version, and it can be tricky to keep track of which bits of QA have been made obsolete due to new or changed code.
 
 There are frameworks which help you construct and run tests on units of your code. These can be a good way to demonstrate that code is working correctly as you update it.
@@ -40,7 +40,7 @@ to include the
 which identifies the current version of the code in the output.
 This can then later be retrieved from your git repository.
 
-## Reproducible Analytical Pipelines
+## Reproducible Analytical Pipelines {#rap_demonstrable}
 Once you have some QA'd, version controlled and test covered code, the biggest source of error will be the manual steps performed by the analyst running it.
 You can eliminate a lot of this, see
 [Reproducible Analytical Pipelines](#rap).
