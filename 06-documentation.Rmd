@@ -15,7 +15,7 @@
 The
 [Aqua book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government)
 contains guidance on documentation that should be in place as part of a quality assurance process for any analysis. This includes code based analysis.
-See [Aqua Book Guidance for Technical Documentation](note_aqua_technical_documentation,md) for more.
+See [Aqua Book Guidance for Technical Documentation](#aqua) for more.
 
 ## Document as you Go
 Don't fall into the trap of assuming documentation is something which is produced at the end.
