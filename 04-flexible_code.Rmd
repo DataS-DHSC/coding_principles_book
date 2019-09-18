@@ -32,6 +32,7 @@ You do know however what your code *should* be doing, what the input is expected
 
 You can use error or [exception handling](https://en.wikipedia.org/wiki/Exception_handling_syntax) to control the errors and warnings that your code produces.
 This can allow you to and choose:
+
 * Where your code breaks - by adding validation to a function input
 * How your code breaks - by providing alternate code to be run in the event of an error.
 * What it tells a user - by providing your own error messages which guide the user to a solution
