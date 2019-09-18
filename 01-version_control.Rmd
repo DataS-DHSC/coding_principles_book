@@ -49,3 +49,12 @@ Good reasons for code to be private might be that it includes classified materia
 
 ## Manual Version Control
 It is *possible* to manually keep track of your code by systematically keeping copies of your code as you modify it and maintaining a corresponding log of all changes to the code. The log should include: What has changed, why, and a link to the relevant copy of the files. It is recommended to use version control tools (git) instead of this manual process.
+
+## Git & GitHub at DHSC
+At present, DHSC base machines do not have git. 
+If you have access to a developer account you can install git for windows from: [git-scm.com](https://git-scm.com/download/win)
+It is anticipated that in the near future TAP (The Analytical Platform) will provide git functionality for all analysts within the department.
+
+## Useful git resources
+
+* [happygitwithr](https://happygitwithr.com/)
