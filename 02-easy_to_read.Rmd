@@ -23,15 +23,20 @@ DHSC has adopted a single style for each language to promote consistency. See
 [style guides](#style_guides) and 
 [Linters](#linters) for more.
 
-## Meaningful Names
+## Meaningful Names {#meaningful_names}
 Names convey meaning, naming functions & variables well can remove the need for
 a comment and make life easier for other readers. This includes your future self!
 
 Find a balance: avoid meaningless names like `obj` or `foo`; but don't put an entire sentence in a variable name.
 
-Use single-letter variables only where the letter represents a well-known
-mathematical property (e.g. e = mc^2), or where their meaning is otherwise
-clear.
+Use single-letter variables only where the use or meaning is clear - such as an iterator for a loop,
+or where the letter represents a well-known mathematical property (think: $e = mc^2$).
+
+## Avoid Overlaps {#dont_overlap}
+When naming things be wary of overlapping with other meanings. In one context, using $e$ for energy or $i$ for an iterator might be sensible, but in another context might be confused with $e$ for exponent and $i$ for imaginary as in: $e^{iθ} = cos(θ) + i sin(θ)$.
+
+Be conscious of overlapping names with things which are parts of the language, or popular functions. 
+For example in Python, you probably want to avoid common abbreviated library names (`np` or `pd`), or in R be careful about overwriting things like `c` which is the name of the function used to make a vector.
 
 ## Name Formats
 Follow your style guide and format your names consistently (i.e. using [camelCase](https://en.wikipedia.org/wiki/Camel_case) or [snake_case](https://en.wikipedia.org/wiki/Snake_case)).
