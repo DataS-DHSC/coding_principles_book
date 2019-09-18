@@ -15,9 +15,9 @@
 Use comments judiciously and look to your [style guide](#style_guides) for advice on how to comment.
 
 ## What to Capture
-Ask yourself: “will I understand this code in 3 years time?”
+Ask yourself: “will I understand this code in a years time?”
 
-Comments should bridge the gap between the documentation and the code. They should   be written in plain English and describe the logic and purpose of each chunk of code; i.e. where it fits in and why its there.
+Comments should bridge the gap between the documentation and the code. They should be written in plain English and describe the logic and purpose of each chunk of code; i.e. where it fits in and why its there.
 
 ### What not to Capture
 You don't need to describe everything you are doing with the code in a comment. Someone reading the code should be literate in the language. Commenting extensively line by line makes it likely that code and comments will get out of sync when you go back and make changes.
