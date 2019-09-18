@@ -8,6 +8,9 @@
 
 **You Could** - Turn your code into a package / library / module, learn and promote RAP techniques, or use containers to achieve reproducibility.
 
+|Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Documentation](#documentation)  |
+|---------------	|------------------------------------------------------------|
+
 ## Documenting for reproducibility
 To be able to reproduce your analysis a colleague may need the following:
 

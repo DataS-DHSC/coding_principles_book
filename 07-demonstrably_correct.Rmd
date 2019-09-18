@@ -7,6 +7,9 @@
  **You Should** - Use version control to unambiguously link QA to code and outputs and construct automated tests to provide confidence that changes don't break things.
 
  **You Could** - Make a fully automated reproducible analytical pipeline (RAP).
+ 
+ |Related Areas: 	| [Version Control](#version_control) <br> [Be Reproducible](#reproducible) |
+|---------------	|------------------------------------------------------------|
 
 ## QA Applies to Code
 Code is not exempt from Quality Assurance processes. As with any other analysis you need to record evidence that your code is:

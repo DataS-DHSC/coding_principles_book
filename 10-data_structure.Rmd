@@ -8,6 +8,8 @@
 
 **You Could** - Think about relationships between datasets, design schemas and store data in an efficient way.
 
+|Related Areas: 	| [Sensible Defaults](#sensible_defaults)   |
+|---------------	|------------------------------------------------------------|
 
 ## Tidy Data?
 A dataset is a collection of values, usually either numbers (if quantitative) or strings (if qualitative). Values are organised in two ways Every value belongs to a *variable* and an *observation*:

@@ -8,6 +8,9 @@
 
 **You Could** - Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
 
+|Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Easy to Read Code](#easy_to_read)<br> [Comments](#comments)  |
+|---------------	|------------------------------------------------------------|
+
 ## Correct
 The first priority should always be that the code is correct.
 See the [demonstably correct](#demonsrably_correct) principle.

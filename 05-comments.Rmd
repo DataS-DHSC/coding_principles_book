@@ -8,6 +8,9 @@
 
 **You Could** - Review old code you have written - are the comments helpful? what would you include next time?
 
+|Related Areas: 	| [Documentation](#documentation) <br> [Easy to Read Code](#easy_to_read)  |
+|---------------	|------------------------------------------------------------|
+
 ## Comment Style
 Use comments judiciously and look to your [style guide](#style_guides) for advice on how to comment.
 

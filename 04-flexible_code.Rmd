@@ -8,6 +8,8 @@
 
 **You Could** - Implement and test thorough error handling. Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
 
+|Related Areas: 	| [Comments](#comments) <br> [Data Structure](#data_structure) |
+|---------------	|------------------------------------------------------------|
 
 ##  Break up your code and don't repeat yourself
 [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a common idea in programming. Instead of writing a bit of code several times to repeat an operation, you would re-use the same code by turning it into a function (or some other re-useable chunk - a method or subroutines).

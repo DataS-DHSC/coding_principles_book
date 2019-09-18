@@ -8,6 +8,9 @@
 
 **You Could** - Review your code with colleagues to make ensure your names and style promote understanding.
 
+|Related Areas: 	| [Comments](#comments) <br> [Flexible Code](#flexible_code) <br> [Documentation](#documentation)  |
+|---------------	|------------------------------------------------------------|
+
 ## Style Guides
 Most languages have several available style guides, which define a set of conventions to produce clean and consistently formatted code. Your style guide will define things like:
 

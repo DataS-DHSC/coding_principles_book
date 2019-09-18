@@ -8,6 +8,9 @@
 
 **You Could** - Proactively review and compare the defaults used
 
+|Related Areas: 	| [Easy to Read](#easy_to_read) |
+|---------------	|------------------------------------------------------------|
+
 ## General Defaults
 * Use 'Tidy' data. See the [tidy data principle](#data_structure)!
 * Use git for version control of code (rather than SVN, Mercurial etc). See the [version control principle](#version_control)

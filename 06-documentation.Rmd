@@ -8,6 +8,9 @@
 
 **You Could** - Use document generation tools to produce documentation.
 
+|Related Areas: 	| [Reproducibility](#reproducible) <br> [Comments](#comments)  |
+|---------------	|------------------------------------------------------------|
+
 ## Aqua Book Guidance
 The
 [Aqua book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government)

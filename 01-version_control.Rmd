@@ -9,6 +9,9 @@
 
 **You Could** - Use Git & GitHub collaboratively and agree a version control pattern with your team.
 
+|Related Areas: 	| [Demonstrably Correct](#demonstrably_correct), <br> [Be Reproducible](#reproducible) |
+|---------------	|------------------------------------------------------------|
+
 ## Git - (program for version control)
 [Git](https://en.wikipedia.org/wiki/Git) is the most popular way to version control code. You can tell Git to keep track of a folder full of code (a repository or 'repo'). As you make changes, Git identifies them and asks which should be kept (or 'committed'), and for a comment identifying why. It uses this to maintain a log of all the changes. This log can be used to restore old versions.
 
