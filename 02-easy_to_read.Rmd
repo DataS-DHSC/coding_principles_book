@@ -2,7 +2,7 @@
 
 (ref:easytoreadintro)
 
-**You Must** - Use meaningful names and follow the [DHSC adopted style](#style_guides) for your language.
+**You Must** - Follow the [DHSC adopted style](#style_guides) for your language, use [meaningful names](#meaningful_names) and avoid [overlaps](#dont_overlap).
 
 **You Should** - Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide. 
 
