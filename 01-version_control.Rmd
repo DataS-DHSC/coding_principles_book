@@ -12,7 +12,13 @@
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct), <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|
 
-## Git - (program for version control)
+## What is version control? {#what_is_vc}
+Version control is managing changes to the documents and files which make up your work. 
+This typically includes a system for identifying versions (i.e. a version number or name) 
+and some sort of log of what the changes are, who made them and when they were made.
+Version control systems are usually associated with tools for comparing, restoring and merging versions.
+
+## Git - (program for version control) {#git}
 [Git](https://en.wikipedia.org/wiki/Git) is the most popular way to version control code. You can tell Git to keep track of a folder full of code (a repository or 'repo'). As you make changes, Git identifies them and asks which should be kept (or 'committed'), and for a comment identifying why. It uses this to maintain a log of all the changes. This log can be used to restore old versions.
 
 ## GitHub - (service for storing code version controlled using git)
