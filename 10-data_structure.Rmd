@@ -2,16 +2,16 @@
 
 (ref:datastructuresintro)
 
-**You Must** - Know what 'Tidy' data is, and understand why it is valuable.
+**You Must** - Know what [Tidy data](#tidy_data) is, and understand why it is valuable.
 
-**You Should** - Be familiar with the data types and structures available to you and ensure that you use the right ones.
+**You Should** - Be familiar with the [data types](#data_types) and structures available to you and ensure that you use the right ones.
 
-**You Could** - Think about relationships between datasets, design schemas and store data in an efficient way.
+**You Could** - Think about relationships between datasets, design [schemas](#schema) and store data in an efficient way.
 
 |Related Areas: 	| [Sensible Defaults](#sensible_defaults)   |
 |---------------	|------------------------------------------------------------|
 
-## Tidy Data?
+## Tidy Data? {#tidy_data}
 A dataset is a collection of values, usually either numbers (if quantitative) or strings (if qualitative). Values are organised in two ways Every value belongs to a *variable* and an *observation*:
 
 * A variable contains all values that measure the same underlying attribute (like height, temperature, duration) across units.
@@ -27,7 +27,7 @@ For more see the section on *Tidy Data* in [R for Data Science](https://r4ds.had
 Use tidy data structures as part of your work. You should attempt to convert incoming data into tidy format as quickly as possible.
 Any data that is output that may be used in other projects should be in tidy format as well as any other required formats.
 
-## Data Types and Structures
+## Data Types and Structures {#data_types}
 Data *types* are the basic units which your language uses to store data, things like integers, doubles, strings and logical data. Typically you are working with data frames, arrays, matricies or lists. These hold multiple items of data in a data *structure*.
 
 Different types and structures are used for different things, and have different capabilities. To be effective, know about the data types and structures available to you and use the right ones for the job!
@@ -42,5 +42,5 @@ For a list of python datatypes see the:
 * [Python Documentation](https://docs.python.org/3/library/datatypes.html)
 * [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html)
 
-## Schema
+## Schema {#schema}
 The R for data science book has a nice section on [relational data](https://r4ds.had.co.nz/relational-data.html).
