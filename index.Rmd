@@ -31,7 +31,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 **1) [Use Version Control]**
 
-(ref:versioncontrolintro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions.Doing version control well can be tricky, fortunately, there are tools to help you.
+(ref:versioncontrolintro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Doing version control well can be tricky, fortunately, there are tools to help you.
 
 (ref:versioncontrolintro)
 
@@ -49,7 +49,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 **4) [Write Flexible Code]**
 
-(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later. This does **not** mean trying to solve every conceivable problem up-front, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
+(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
 
 (ref:flexiblecodeintro)
 
