@@ -11,6 +11,8 @@ output:
       toc:
         collapse: section
         scroll_highlight: yes
+      mathjax: default
+    
 ---
 
 # Introduction {-}
