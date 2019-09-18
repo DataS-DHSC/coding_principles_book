@@ -2,19 +2,21 @@
 
 (ref:sensibledefaultsintro)
 
-**You Must** - Be aware of the defaults, understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
+**You Must** - Be aware of the [defaults](#general_defaults), understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
 
 **You Should** - Help define what the defaults should be, and actively participate in discussion and debate to keep them up to date and relevant.
 
-**You Could** - Proactively review and compare the defaults used
+**You Could** - Proactively review and compare the defaults used with the way you work.
 
 |Related Areas: 	| [Easy to Read](#easy_to_read) |
 |---------------	|------------------------------------------------------------|
 
-## General Defaults
+## General Defaults {#general_defaults}
 * Use 'Tidy' data. See the [tidy data principle](#data_structure)!
 * Use git for version control of code (rather than SVN, Mercurial etc). See the [version control principle](#version_control)
 * Use a standardised template for your type of project, this will help people find things. See the [reproducible principle](#reproducible)
+* Use preexisting packages and code before writing your own.
+* Use popular, mature and well supported packages in preference to up & coming ones.
 
 ## Language Specific Defaults:
 In addition to the general principles, there are some sensible defaults which are language specific:
