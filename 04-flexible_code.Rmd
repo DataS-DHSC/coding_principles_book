@@ -2,11 +2,10 @@
 
 (ref:flexiblecodeintro)
 
-**You Must** - Break your code into chunks, each with a clear purpose and don't repeat yourself. Think about, and document the way your code might break with different inputs.
+**You Must** - [Break up](#breakup) your code into chunks, with a clear [structure](#structure) and [don't repeat yourself](#dry). 
+**You Should** - Think about, and document the way your code might break with different inputs. Include [input validation](#input_validation) to catch mistakes earlier in your code and make it easier to repurpose.
 
-**You Should** - Include input validation in your code.
-
-**You Could** - Implement and test thorough error handling. Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
+**You Could** - Implement and test thorough [error handling](#error_handling). Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
 
 |Related Areas: 	| [Comments](#comments) <br> [Data Structure](#data_structure) |
 |---------------	|------------------------------------------------------------|
