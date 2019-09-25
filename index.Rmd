@@ -14,6 +14,9 @@ output:
       mathjax: default
     
 ---
+# Disclaimer {-}
+
+This is an unapproved draft and does not represent the views of the DHSC.
 
 # Introduction {-}
 These principles are designed with the aim of improving coding standards and consistency within the department.
