@@ -36,71 +36,194 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 **1) [Use Version Control]**
 
-(ref:versioncontrolintro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Doing version control well can be tricky, fortunately, there are tools to help you.
+<!-- Define -->
 
-(ref:versioncontrolintro)
+(ref:versioncontrol-intro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Doing version control well can be tricky, fortunately, there are tools to help you.
+
+(ref:versioncontrol-must) Use [version control](#what_is_vc) and follow guidance on coding in the open.
+
+(ref:versioncontrol-should) Use standard tools ([Git](#git) & [GitHub](#github)) to help you version control code.
+
+(ref:versioncontrol-could) Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc) and agree a version control pattern with your team.
+
+<!-- Print -->
+
+(ref:versioncontrol-intro)
+
 
 **2) [Write Easy to Read Code]**
 
-(ref:easytoreadintro) Keep your code easy to read by using sensible names and a consistent style.
+<!-- Define -->
 
-(ref:easytoreadintro)
+(ref:easytoread-intro) Keep your code easy to read by using sensible names and a consistent style.
+
+(ref:easytoread-must) Follow the [DHSC adopted style](#style_guides) for your language, use [meaningful names](#meaningful_names) and avoid [overlaps](#dont_overlap).
+
+(ref:easytoread-should) Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide. 
+
+(ref:easytoread-could) Review your code with colleagues to make ensure your names and style promote understanding.
+
+<!-- Print -->
+
+(ref:easytoread-intro)
+
 
 **3) [Correct, Clear, Fast & Concise - In That Order]**
 
-(ref:correctclearconciseintro) Write code with your colleagues in mind. They need your code to work correctly, and they will have to understand and check it before they can derive benefit from it being fast or concise. Choose clarity over cleverness – just because you can do it in one line doesn’t mean you should.
+<!-- Define -->
 
-(ref:correctclearconciseintro)
+(ref:correctclearconcise-intro) Write code with your colleagues in mind. They need your code to work correctly, and they will have to understand and check it before they can derive benefit from it being fast or concise. Choose clarity over cleverness – just because you can do it in one line doesn’t mean you should.
+
+(ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
+
+(ref:correctclearconcise-should) Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where this is possible _without_ sacrificing correctness, clarity or excessive resource! Document the design choices you have made to achieve this balance.
+
+(ref:correctclearconcise-could) Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
+
+<!-- Print -->
+
+(ref:correctclearconcise-intro)
+
 
 **4) [Write Flexible Code]**
 
-(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Investing some effort in writing flexible code _can_ save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions that cover cases you may never encounter. Find a balance and focus on making your code easy to change when needed.
+<!-- Define -->
 
-(ref:flexiblecodeintro)
+(ref:flexiblecode-intro) Often your code will be adapted, repurposed, or applied to something new. Investing some effort in writing flexible code _can_ save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions that cover cases you may never encounter. Find a balance and focus on making your code easy to change when needed.
+
+(ref:flexiblecode-must) [Break up](#breakup) your code into chunks, with a clear [structure](#structure) and [don't repeat yourself](#dry).
+
+(ref:flexiblecode-should) Think about, and document the way your code might break with different inputs. Include [input validation](#input_validation) to catch mistakes earlier in your code and make it easier to repurpose.
+
+(ref:flexiblecode-could) Implement and test thorough [error handling](#error_handling). Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
+
+<!-- Print -->
+
+(ref:flexiblecode-intro)
+
 
 **5) [Comment Effectively]**
 
-(ref:commentsintro) The function of your code should be clear to another team member.
+<!-- Define -->
+
+(ref:comments-intro) The function of your code should be clear to another team member.
 Comments can be invaluable for capturing why a bit of code exists and what it is doing.
 However, they can also get in the way if there are too many of them or they are inconsistent with the code.
 Comments aren't just for other people, imagine if you return to your code in a years time – would you understand it?
 
-(ref:commentsintro)
+(ref:comments-must) Comment your code.
+
+(ref:comments-should) Think about _why_ you are leaving comments, what to capture, and what belongs elsewhere.
+
+(ref:comments-could) Review old code you have written - are the comments helpful? what would you include next time?
+
+<!-- Print -->
+
+(ref:comments-intro)
 
 
 **6) [Document Your Work]**
 
-(ref:documentationintro) Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
+<!-- Define -->
+
+(ref:documentation-intro) Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
 Code without documentation won't be very useful later!
 
-(ref:documentationintro)
+(ref:documentation-must) Produce documentation in line with [Aqua book guidance](#aqua).
+
+(ref:documentation-should) Assemble documentation [as you code](#as_you_go).
+
+(ref:documentation-could) Use document generation tools to produce [documentation](#doxygen).
+
+<!-- Print -->
+
+(ref:documentation-intro)
+
 
 **7) [Be Demonstrably Correct]**
 
-(ref:demonstrablycorrectintro) We need to be confident in the outputs we provide.
+<!-- Define -->
+
+(ref:demonstrablycorrect-intro) We need to be confident in the outputs we provide.
 Just because something is done with code doesn't mean it is more likely to be answering the right question, using the right inputs, or doing the calculation correctly.
 As with any analysis, the defence against this is having a clear and robust audit trail which can _demonstrate_ that our output is correct.
 
-(ref:demonstrablycorrectintro)
+(ref:demonstrablycorrect-must) Hold your code to the [same standard as any other analysis](#qa_code_too) and record evidence demonstrating it produces the right output.
+
+(ref:demonstrablycorrect-should) Use [version control](#version_control) to unambiguously link QA to code and outputs and construct [automated tests](#unit_tests) to provide confidence that changes don't break things.
+
+(ref:demonstrablycorrect-could) Make a fully automated [reproducible analytical pipeline (RAP)](#rap_demonstrable) which incorporates checks and validation and minimises opportunity for human error.
+
+<!-- Print -->
+
+(ref:demonstrablycorrect-intro)
 
 **8) [Use Sensible Defaults]**
 
-(ref:sensibledefaultsintro) There are basic tasks we all do. We should do these in the same way to make collaboration easier.
+<!-- Define -->
+
+(ref:sensibledefaults-intro) There are basic tasks we all do. We should do these in the same way to make collaboration easier.
 It is not true to say that there is only one right way of tackling a problem, or that one way is the best for all cases. However, collaboration and QA are easier if there is *consistency* in our approaches. That is usually more important than using the absolute best method.
 
-(ref:sensibledefaultsintro)
+(ref:sensibledefaults-must) Be aware of the [defaults](#general_defaults), understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
+
+(ref:sensibledefaults-should) Help define what the defaults should be, and actively participate in discussion and debate to keep them up to date and relevant.
+
+(ref:sensibledefaults-could) Proactively review and compare the defaults used with the way you work.
+
+<!-- Print -->
+
+(ref:sensibledefaults-intro)
+
 
 **9) [Be Reproducible]**
 
-(ref:reproducibleintro) Within DHSC analysis is used to enable evidence based decision making.
+<!-- Define -->
+
+(ref:reproducible-intro) Within DHSC analysis is used to enable evidence based decision making.
 A piece of evidence which you cannot rely on being able to reproduce is not much good.
 There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.
 
-(ref:reproducibleintro)
+(ref:reproducible-must) Keep track of what you have done and document it [unambiguously](#unambiguous_docs) so that someone else can recreate it.
+
+(ref:reproducible-should) Write [portable](#portability) code, in a standard [project structure](#projects) so that it is _easy_ for someone else to run it.
+
+(ref:reproducible-could) Turn your code into a [package / library / module](#packages), learn and promote [RAP](#rap_section) techniques, or use [containers](#containers) to achieve reproducibility.
+
+<!-- Print -->
+
+(ref:reproducible-intro)
+
 
 **10) [Use Appropriate and Tidy Data]**
 
-(ref:datastructuresintro) Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
+<!-- Define -->
+
+(ref:datastructures-intro) Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
 At DHSC we are working with data represented in tables. For this type of work, using 'Tidy' data is usually the best approach.
 
-(ref:datastructuresintro)
+(ref:datastructures-must) Know what ['Tidy Data'](#tidy_data) is, and understand why it is valuable.
+
+(ref:datastructures-should) Be familiar with the [data types](#data_types) and structures available to you and ensure that you use the right ones.
+
+(ref:datastructures-could) Think about relationships between datasets, design [schemas](#schema) and store data in an efficient way.
+
+<!-- Print -->
+
+(ref:datastructures-intro)
+
+
+# Principles Table {-}
+
+| Principle                                            	| You Must                       	| You Should                       	| You Could                       	|
+|------------------------------------------------------	|--------------------------------	|----------------------------------	|---------------------------------	|
+| **[Use Version Control]**                            	| (ref:versioncontrol-must)      	| (ref:versioncontrol-should)      	| (ref:versioncontrol-could)      	|
+| **[Write Easy to Read Code]**                        	| (ref:easytoread-must)          	| (ref:easytoread-should)          	| (ref:easytoread-could)          	|
+| **[Correct, Clear, Fast & Concise - In That Order]** 	| (ref:correctclearconcise-must) 	| (ref:correctclearconcise-should) 	| (ref:correctclearconcise-could) 	|
+| **[Write Flexible Code]**                            	| (ref:flexiblecode-must)        	| (ref:flexiblecode-should)        	| (ref:flexiblecode-could)        	|
+| **[Comment Effectively]**                            	| (ref:comments-must)            	| (ref:comments-should)            	| (ref:comments-could)            	|
+| **[Document Your Work]**                             	| (ref:documentation-must)       	| (ref:documentation-should)       	| (ref:documentation-could)       	|
+| **[Be Demonstrably Correct]**                        	| (ref:demonstrablycorrect-must) 	| (ref:demonstrablycorrect-should) 	| (ref:demonstrablycorrect-could) 	|
+| **[Use Sensible Defaults]**                          	| (ref:sensibledefaults-must)    	| (ref:sensibledefaults-should)    	| (ref:sensibledefaults-could)    	|
+| **[Be Reproducible]**                                	| (ref:reproducible-must)        	| (ref:reproducible-should)        	| (ref:reproducible-could)        	|
+| **[Use Appropriate and Tidy Data]**                  	| (ref:datastructures-must)      	| (ref:datastructures-should)      	| (ref:datastructures-could)      	|

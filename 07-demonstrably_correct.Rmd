@@ -1,12 +1,12 @@
 # Be Demonstrably Correct {#demonstrably_correct}
 
-(ref:demonstrablycorrectintro)
+(ref:demonstrablycorrect-intro)
 
- **You Must** - Hold your code to the [same standard as any other analysis](#qa_code_too) and record evidence demonstrating it produces the right output.
+ **You Must** - (ref:demonstrablycorrect-must)
+ 
+ **You Should** - (ref:demonstrablycorrect-should)
 
- **You Should** - Use [version control](#version_control) to unambiguously link QA to code and outputs and construct [automated tests](#unit_tests) to provide confidence that changes don't break things.
-
- **You Could** - Make a fully automated [reproducible analytical pipeline (RAP)](#rap_demonstrable) which incorporates checks and validation and minimises opportunity for human error.
+ **You Could** - (ref:demonstrablycorrect-could)
  
  |Related Areas: 	| [Version Control](#version_control) <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|

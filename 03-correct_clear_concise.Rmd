@@ -1,13 +1,13 @@
 # Correct, Clear, Fast & Concise - In That Order {#correct_clear_concise}
 
-(ref:correctclearconciseintro)
+(ref:correctclearconcise-intro)
 
-**You Must** - Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
+**You Must** - (ref:correctclearconcise-must)
 
-**You Should** - Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where this is possible _without_ sacrificing correctness, clarity or excessive resource! Document the design choices you have made to achieve this balance.
+**You Should** - (ref:correctclearconcise-should)
 
-**You Could** - 
-Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
+**You Could** - (ref:correctclearconcise-could)
+
 
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Easy to Read Code](#easy_to_read)<br> [Comments](#comments)  |
 |---------------	|------------------------------------------------------------|

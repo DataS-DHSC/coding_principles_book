@@ -1,12 +1,12 @@
 # Write Easy to Read Code {#easy_to_read}
 
-(ref:easytoreadintro)
+(ref:easytoread-intro)
 
-**You Must** - Follow the [DHSC adopted style](#style_guides) for your language, use [meaningful names](#meaningful_names) and avoid [overlaps](#dont_overlap).
+**You Must** - (ref:easytoread-must)
 
-**You Should** - Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide. 
+**You Should** - (ref:easytoread-should)
 
-**You Could** - Review your code with colleagues to make ensure your names and style promote understanding.
+**You Could** - (ref:easytoread-could)
 
 |Related Areas: 	| [Comments](#comments) <br> [Flexible Code](#flexible_code) <br> [Documentation](#documentation)  |
 |---------------	|------------------------------------------------------------|

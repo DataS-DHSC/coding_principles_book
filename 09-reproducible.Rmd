@@ -1,12 +1,12 @@
 # Be Reproducible {#reproducible}
 
-(ref:reproducibleintro)
+(ref:reproducible-intro)
 
-**You Must** - Keep track of what you have done and document it [unambiguously](#unambiguous_docs) so that someone else can recreate it.
+**You Must** - (ref:reproducible-must)
 
-**You Should** - Write [portable](#portability) code, in a standard [project structure](#projects) so that it is _easy_ for someone else to run it.
+**You Should** - (ref:reproducible-should)
 
-**You Could** - Turn your code into a [package / library / module](#packages), learn and promote [RAP](#rap_section) techniques, or use [containers](#containers) to achieve reproducibility.
+**You Could** - (ref:reproducible-could)
 
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Documentation](#documentation)  |
 |---------------	|------------------------------------------------------------|

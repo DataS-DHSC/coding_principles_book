@@ -1,12 +1,12 @@
 # Comment Effectively {#comments}
 
-(ref:commentsintro)
+(ref:comments-intro)
 
-**You Must** - Comment your code.
+**You Must** - (ref:comments-must)
 
-**You Should** - Think about _why_ you are leaving comments, what to capture, and what belongs elsewhere.
+**You Should** - (ref:comments-should)
 
-**You Could** - Review old code you have written - are the comments helpful? what would you include next time?
+**You Could** - (ref:comments-could)
 
 |Related Areas: 	| [Documentation](#documentation) <br> [Easy to Read Code](#easy_to_read)  |
 |---------------	|------------------------------------------------------------|

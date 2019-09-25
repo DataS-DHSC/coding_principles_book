@@ -1,12 +1,12 @@
 # Use Sensible Defaults {#sensible_defaults}
 
-(ref:sensibledefaultsintro)
+(ref:sensibledefaults-intro)
 
-**You Must** - Be aware of the [defaults](#general_defaults), understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
+**You Must** - (ref:sensibledefaults-must)
 
-**You Should** - Help define what the defaults should be, and actively participate in discussion and debate to keep them up to date and relevant.
+**You Should** - (ref:sensibledefaults-should)
 
-**You Could** - Proactively review and compare the defaults used with the way you work.
+**You Could** - (ref:sensibledefaults-could)
 
 |Related Areas: 	| [Easy to Read](#easy_to_read) |
 |---------------	|------------------------------------------------------------|

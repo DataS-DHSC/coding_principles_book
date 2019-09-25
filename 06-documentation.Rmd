@@ -1,12 +1,12 @@
 # Document Your Work {#documentation}
 
-(ref:documentationintro)
+(ref:documentation-intro)
 
-**You Must** - Produce documentation in line with [Aqua book guidance](#aqua).
+**You Must** - (ref:documentation-must)
 
-**You Should** - Assemble documentation [as you code](#as_you_go).
+**You Should** - (ref:documentation-should)
 
-**You Could** - Use document generation tools to produce [documentation](#doxygen).
+**You Could** - (ref:documentation-could)
 
 |Related Areas: 	| [Reproducibility](#reproducible) <br> [Comments](#comments)  |
 |---------------	|------------------------------------------------------------|

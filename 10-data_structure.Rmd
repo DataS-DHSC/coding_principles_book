@@ -1,12 +1,12 @@
 # Use Appropriate and Tidy Data {#data_structure}
 
-(ref:datastructuresintro)
+(ref:datastructures-intro)
 
-**You Must** - Know what ['Tidy Data'](#tidy_data) is, and understand why it is valuable.
+**You Must** - (ref:datastructures-must)
 
-**You Should** - Be familiar with the [data types](#data_types) and structures available to you and ensure that you use the right ones.
+**You Should** - (ref:datastructures-should)
 
-**You Could** - Think about relationships between datasets, design [schemas](#schema) and store data in an efficient way.
+**You Could** - (ref:datastructures-could)
 
 |Related Areas: 	| [Sensible Defaults](#sensible_defaults)   |
 |---------------	|------------------------------------------------------------|

@@ -1,13 +1,13 @@
 # (PART\*) The Principles {-}
 # Use Version Control {#version_control}
 
-(ref:versioncontrolintro)
+(ref:versioncontrol-intro)
 
-**You Must** - Use [version control](#what_is_vc) and follow guidance on coding in the open.
+**You Must** - (ref:versioncontrol-must) 
 
-**You Should** - Use standard tools ([Git](#git) & [GitHub](#github)) to help you version control code.
+**You Should** - (ref:versioncontrol-should)
 
-**You Could** - Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc) and agree a version control pattern with your team.
+**You Could** - (ref:versioncontrol-could)
 
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct), <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|

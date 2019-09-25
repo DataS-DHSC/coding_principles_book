@@ -1,12 +1,12 @@
 # Write Flexible Code {#flexible_code}
 
-(ref:flexiblecodeintro)
+(ref:flexiblecode-intro)
 
-**You Must** - [Break up](#breakup) your code into chunks, with a clear [structure](#structure) and [don't repeat yourself](#dry).
+**You Must** - (ref:flexiblecode-must)
 
-**You Should** - Think about, and document the way your code might break with different inputs. Include [input validation](#input_validation) to catch mistakes earlier in your code and make it easier to repurpose.
+**You Should** - (ref:flexiblecode-should)
 
-**You Could** - Implement and test thorough [error handling](#error_handling). Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
+**You Could** - (ref:flexiblecode-could)
 
 |Related Areas: 	| [Comments](#comments) <br> [Data Structure](#data_structure) |
 |---------------	|------------------------------------------------------------|
