@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>C DHSC Sensible Defaults for Python | DHSC Coding Principles</title>
-  <meta name="description" content="C DHSC Sensible Defaults for Python | DHSC Coding Principles" />
+  <title>B R at DHSC | DHSC Coding Principles</title>
+  <meta name="description" content="B R at DHSC | DHSC Coding Principles" />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="C DHSC Sensible Defaults for Python | DHSC Coding Principles" />
+  <meta property="og:title" content="B R at DHSC | DHSC Coding Principles" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="C DHSC Sensible Defaults for Python | DHSC Coding Principles" />
+  <meta name="twitter:title" content="B R at DHSC | DHSC Coding Principles" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="containers.html"/>
-<link rel="next" href="r-defaults.html"/>
+<link rel="prev" href="py-at-dhsc.html"/>
+<link rel="next" href="rap.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -103,9 +103,9 @@
 <li class="chapter" data-level="5.3" data-path="comments.html"><a href="comments.html#alternatives"><i class="fa fa-check"></i><b>5.3</b> Alternatives</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>6</b> Document Your Work</a><ul>
-<li class="chapter" data-level="6.1" data-path="documentation.html"><a href="documentation.html#aqua-book-guidance"><i class="fa fa-check"></i><b>6.1</b> Aqua Book Guidance</a></li>
-<li class="chapter" data-level="6.2" data-path="documentation.html"><a href="documentation.html#document-as-you-go"><i class="fa fa-check"></i><b>6.2</b> Document as you Go</a></li>
-<li class="chapter" data-level="6.3" data-path="documentation.html"><a href="documentation.html#use-a-documentation-generator"><i class="fa fa-check"></i><b>6.3</b> Use a Documentation Generator</a></li>
+<li class="chapter" data-level="6.1" data-path="documentation.html"><a href="documentation.html#aqua"><i class="fa fa-check"></i><b>6.1</b> Aqua Book Guidance for Technical Documentation:</a></li>
+<li class="chapter" data-level="6.2" data-path="documentation.html"><a href="documentation.html#as_you_go"><i class="fa fa-check"></i><b>6.2</b> Document as you Go</a></li>
+<li class="chapter" data-level="6.3" data-path="documentation.html"><a href="documentation.html#doxygen"><i class="fa fa-check"></i><b>6.3</b> Use a Documentation Generator</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html"><i class="fa fa-check"></i><b>7</b> Be Demonstrably Correct</a><ul>
 <li class="chapter" data-level="7.1" data-path="demonstrably-correct.html"><a href="demonstrably-correct.html#qa_code_too"><i class="fa fa-check"></i><b>7.1</b> Quality Assurance Applies to Code</a></li>
@@ -120,9 +120,10 @@
 <li class="chapter" data-level="9" data-path="reproducible.html"><a href="reproducible.html"><i class="fa fa-check"></i><b>9</b> Be Reproducible</a><ul>
 <li class="chapter" data-level="9.1" data-path="reproducible.html"><a href="reproducible.html#unambiguous_docs"><i class="fa fa-check"></i><b>9.1</b> Unambiguous documentation for reproducibility</a></li>
 <li class="chapter" data-level="9.2" data-path="reproducible.html"><a href="reproducible.html#portability"><i class="fa fa-check"></i><b>9.2</b> Portability</a></li>
-<li class="chapter" data-level="9.3" data-path="reproducible.html"><a href="reproducible.html#rap_section"><i class="fa fa-check"></i><b>9.3</b> Reproducible Analytical Pipelines</a></li>
-<li class="chapter" data-level="9.4" data-path="reproducible.html"><a href="reproducible.html#packages"><i class="fa fa-check"></i><b>9.4</b> Packages and Modules</a></li>
-<li class="chapter" data-level="9.5" data-path="reproducible.html"><a href="reproducible.html#containers"><i class="fa fa-check"></i><b>9.5</b> Containers &amp; Virtual Machines</a></li>
+<li class="chapter" data-level="9.3" data-path="reproducible.html"><a href="reproducible.html#projects"><i class="fa fa-check"></i><b>9.3</b> Project Structure</a></li>
+<li class="chapter" data-level="9.4" data-path="reproducible.html"><a href="reproducible.html#rap_section"><i class="fa fa-check"></i><b>9.4</b> Reproducible Analytical Pipelines</a></li>
+<li class="chapter" data-level="9.5" data-path="reproducible.html"><a href="reproducible.html#packages"><i class="fa fa-check"></i><b>9.5</b> Packages and Modules</a></li>
+<li class="chapter" data-level="9.6" data-path="reproducible.html"><a href="reproducible.html#containers"><i class="fa fa-check"></i><b>9.6</b> Containers / Docker</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="data-structure.html"><a href="data-structure.html"><i class="fa fa-check"></i><b>10</b> Use Appropriate and Tidy Data</a><ul>
 <li class="chapter" data-level="10.1" data-path="data-structure.html"><a href="data-structure.html#tidy_data"><i class="fa fa-check"></i><b>10.1</b> Tidy Data?</a></li>
@@ -133,18 +134,25 @@
 <li class="chapter" data-level="10.3" data-path="data-structure.html"><a href="data-structure.html#schema"><i class="fa fa-check"></i><b>10.3</b> Schema</a></li>
 </ul></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="aqua.html"><a href="aqua.html"><i class="fa fa-check"></i><b>A</b> Aqua Book Guidance for Technical Documentation:</a></li>
-<li class="chapter" data-level="B" data-path="reproducible.html"><a href="reproducible.html#containers"><i class="fa fa-check"></i><b>B</b> Containers / Docker</a></li>
-<li class="chapter" data-level="C" data-path="python-defaults.html"><a href="python-defaults.html"><i class="fa fa-check"></i><b>C</b> DHSC Sensible Defaults for Python</a></li>
-<li class="chapter" data-level="D" data-path="r-defaults.html"><a href="r-defaults.html"><i class="fa fa-check"></i><b>D</b> DHSC Sensible Defaults for R</a></li>
-<li class="chapter" data-level="E" data-path="reproducible.html"><a href="reproducible.html#packages"><i class="fa fa-check"></i><b>E</b> Packages and Modules</a></li>
-<li class="chapter" data-level="F" data-path="projects.html"><a href="projects.html"><i class="fa fa-check"></i><b>F</b> Project Structure</a><ul>
-<li class="chapter" data-level="F.1" data-path="projects.html"><a href="projects.html#r-1"><i class="fa fa-check"></i><b>F.1</b> R</a></li>
-<li class="chapter" data-level="F.2" data-path="projects.html"><a href="projects.html#python-1"><i class="fa fa-check"></i><b>F.2</b> Python</a></li>
+<li class="chapter" data-level="A" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html"><i class="fa fa-check"></i><b>A</b> Python at DHSC</a><ul>
+<li class="chapter" data-level="A.1" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#version-ide"><i class="fa fa-check"></i><b>A.1</b> Version &amp; IDE</a></li>
+<li class="chapter" data-level="A.2" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#py_default_packages"><i class="fa fa-check"></i><b>A.2</b> Default Packages and Add Ins</a></li>
+<li class="chapter" data-level="A.3" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#py_projects"><i class="fa fa-check"></i><b>A.3</b> Project Workflow</a></li>
+<li class="chapter" data-level="A.4" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#py_packages"><i class="fa fa-check"></i><b>A.4</b> Packaging Your Code</a></li>
+<li class="chapter" data-level="A.5" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#py_dependencies"><i class="fa fa-check"></i><b>A.5</b> Managing Dependencies</a></li>
+<li class="chapter" data-level="A.6" data-path="py-at-dhsc.html"><a href="py-at-dhsc.html#py_tests"><i class="fa fa-check"></i><b>A.6</b> Unit Testing</a></li>
 </ul></li>
-<li class="chapter" data-level="G" data-path="rap.html"><a href="rap.html"><i class="fa fa-check"></i><b>G</b> Reproducible Analytical Pipelines</a><ul>
-<li class="chapter" data-level="G.1" data-path="rap.html"><a href="rap.html#automating-pipelines"><i class="fa fa-check"></i><b>G.1</b> Automating Pipelines</a></li>
-<li class="chapter" data-level="G.2" data-path="rap.html"><a href="rap.html#code-version-linked-to-outputs"><i class="fa fa-check"></i><b>G.2</b> Code version linked to outputs</a></li>
+<li class="chapter" data-level="B" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html"><i class="fa fa-check"></i><b>B</b> R at DHSC</a><ul>
+<li class="chapter" data-level="B.1" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r-version-ide"><i class="fa fa-check"></i><b>B.1</b> R Version &amp; IDE</a></li>
+<li class="chapter" data-level="B.2" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_default_packages"><i class="fa fa-check"></i><b>B.2</b> Default Packages and Add Ins</a></li>
+<li class="chapter" data-level="B.3" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_projects"><i class="fa fa-check"></i><b>B.3</b> Project Workflow</a></li>
+<li class="chapter" data-level="B.4" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_package"><i class="fa fa-check"></i><b>B.4</b> Packaging Your Code</a></li>
+<li class="chapter" data-level="B.5" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_dependencies"><i class="fa fa-check"></i><b>B.5</b> Managing Dependencies</a></li>
+<li class="chapter" data-level="B.6" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_tests"><i class="fa fa-check"></i><b>B.6</b> Unit Testing</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="rap.html"><a href="rap.html"><i class="fa fa-check"></i><b>C</b> Reproducible Analytical Pipelines</a><ul>
+<li class="chapter" data-level="C.1" data-path="rap.html"><a href="rap.html#automating-pipelines"><i class="fa fa-check"></i><b>C.1</b> Automating Pipelines</a></li>
+<li class="chapter" data-level="C.2" data-path="rap.html"><a href="rap.html#code-version-linked-to-outputs"><i class="fa fa-check"></i><b>C.2</b> Code version linked to outputs</a></li>
 </ul></li>
 </ul>
 
@@ -163,28 +171,62 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="python_defaults" class="section level1">
-<h1><span class="header-section-number">C</span> DHSC Sensible Defaults for Python</h1>
-<p>The following are the DHSC <a href="sensible-defaults.html#sensible_defaults">sensible defaults</a> for Python:</p>
+<div id="r_at_dhsc" class="section level1">
+<h1><span class="header-section-number">B</span> R at DHSC</h1>
+<p>The following are the DHSC <a href="sensible-defaults.html#sensible_defaults">sensible defaults</a> for R:</p>
+<div id="r-version-ide" class="section level2">
+<h2><span class="header-section-number">B.1</span> R Version &amp; IDE</h2>
+<p>The dominant IDE for R is Rstudio, which comes packaged with R. For a new project you should use the latest version available from the software portal.</p>
+</div>
+<div id="r_default_packages" class="section level2">
+<h2><span class="header-section-number">B.2</span> Default Packages and Add Ins</h2>
+<p>Default to packages from the <a href="http://tidyverse.org/">Tidyverse</a>, because they have been carefully designed to work together effectively as part of a modern data analysis workflow. More info can be found here: <a href="http://r4ds.had.co.nz">R for Data Science by Hadley Wickham</a>.</p>
+<p>For example:</p>
 <ul>
-<li>Use Python 3</li>
-<li>Use pandas for data analysis
-<ul>
-<li>Use <code>loc</code> and <code>iloc</code> to write to data frames</li>
-</ul></li>
-<li>Use Altair for basic data visualisation</li>
-<li>Use Scikit Learn for machine learning</li>
-<li>Use SQLAlchemy and pandas for database interactions, rather than writing your own SQL</li>
+<li>Prefer tibbles to data.frames</li>
+<li>Use ggplot2 rather than base graphics</li>
+<li>Use the pipe <code>%&gt;%</code> rather than nesting function calls, but not always e.g. see <a href="https://twitter.com/hadleywickham/status/603883121197514752">here</a>.</li>
+<li>Prefer <code>purrr</code> to the <code>apply</code> family of functions. See <a href="http://r4ds.had.co.nz/iteration.html#the-map-functions">here</a></li>
 </ul>
+</div>
+<div id="r_projects" class="section level2">
+<h2><span class="header-section-number">B.3</span> Project Workflow</h2>
+<p>Always work in a project. See the guide to <a href="https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects">Using Projects</a>.</p>
+<p>Projects functionality is broken in DHSC’s packaged version of Rstudio - see the fix here:</p>
+</div>
+<div id="r_package" class="section level2">
+<h2><span class="header-section-number">B.4</span> Packaging Your Code</h2>
+<p>Packages are the fundamental unit of reproducible R code. Therefore, if possible, build an R Package to share and document your code.</p>
+<p>Hadley’s book on <a href="http://r-pkgs.had.co.nz/">R Packages</a> is an effective guide on how to produce a package.</p>
+<p>The <a href="https://usethis.r-lib.org/">usethis</a> package has lots of useful shortcuts which.</p>
+</div>
+<div id="r_dependencies" class="section level2">
+<h2><span class="header-section-number">B.5</span> Managing Dependencies</h2>
+<p>There are two key competing ways of managing dependencies for an R Project:</p>
+<ul>
+<li><a href="https://rstudio.github.io/packrat/"><code>packrat</code></a> - current established way to</li>
+<li><a href="https://rstudio.github.io/renv/"><code>renv</code></a> - still maturing, successor to packrat</li>
+</ul>
+<p>See also:</p>
+<ul>
+<li>Rstudio page on <a href="https://environments.rstudio.com/">managing environments in R</a></li>
+<li>Rbloggers <a href="https://www.r-bloggers.com/reproducible-environments/">post on renv</a></li>
+<li>Rstudio page on combining <a href="https://rstudio.github.io/renv/articles/docker.html">renv and docker</a></li>
+</ul>
+</div>
+<div id="r_tests" class="section level2">
+<h2><span class="header-section-number">B.6</span> Unit Testing</h2>
+<p>Use the <code>testthat</code> package for performing unit tests. For details see the <a href="https://r-pkgs.org/tests.html">‘tests’ chapter of R Packages</a>.</p>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="containers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="r-defaults.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="py-at-dhsc.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="rap.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
