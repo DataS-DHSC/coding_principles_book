@@ -75,7 +75,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
 
-(ref:correctclearconcise-should) Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where this is possible _without_ sacrificing correctness, clarity or excessive resource! Document the design choices you have made to achieve this balance.
+(ref:correctclearconcise-should) Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where possible _without_ sacrificing correctness, clarity or excessive resource! Record choices made to achieve this balance.
 
 (ref:correctclearconcise-could) Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
 
