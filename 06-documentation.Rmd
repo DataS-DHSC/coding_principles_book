@@ -11,11 +11,23 @@
 |Related Areas: 	| [Reproducibility](#reproducible) <br> [Comments](#comments)  |
 |---------------	|------------------------------------------------------------|
 
-## Aqua Book Guidance
-The
-[Aqua book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government)
-contains guidance on documentation that should be in place as part of a quality assurance process for any analysis. This includes code based analysis.
-See [Aqua Book Guidance for Technical Documentation](#aqua) for more.
+## Aqua Book Guidance for Technical Documentation: {#aqua}
+Pages 42-43 of the [Aqua book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) contains guidance on documentation that should be in place as part of a quality assurance process for any analysis. The scope of the Aqua book is wider than code, however the definition of technical documentation is useful and repeated here:
+
+All analysis should have documentation for the user, even if that 'user' is just the analyst leading the analysis.
+
+*This is to ensure that they have captured sufficient material to assist them if the analysis is revisited in due course*.
+For analysis that is more likely to be revisited or updated in the future, documentation should be provided to assist a future analyst and should be more comprehensive.
+
+This documentation should include:
+
+* a summary of the analysis including the context to the question being asked,
+* what analytical methods were considered,
+* what analysis was planned and why,
+* what challenges were encountered and how they were overcome
+* and what verification and validation steps were performed.
+
+In addition, guidance on what should be considered if the analysis is to be revisited or updated is beneficial.
 
 ## Document as you Go
 Don't fall into the trap of assuming documentation is something which is produced at the end.
