@@ -21,24 +21,23 @@ This is an unapproved draft and does not represent the views of the DHSC.
 # Introduction {-}
 These principles are designed with the aim of improving coding standards and consistency within the department.
 
-
 Adoption of these principles should improve quality, facilitate collaboration and enable effective QA of code. The principles are not language specific. This is to maximise uptake and provide a uniform set of values across languages.
 
 The principles are designed to be achievable by all DHSC analysts producing code. Each Principle is flexible and has multiple levels:
 
-* **Must** - you aren't finished until your code has met this standard.
+* **Must** - You aren't finished until your code has met this standard.
 
-* **Should** - do this unless you are ready to justify not doing so.
+* **Should** - Do this unless you are ready to justify not doing so.
 
-* **Could** - things you can do to improve your code beyond the base standard.
+* **Could** - Things you can do to improve your code beyond the base standard.
 
-# Principles Overview {-}
+# Overview {-}
 
 **1) [Use Version Control]**
 
 <!-- Define -->
 
-(ref:versioncontrol-intro) It's important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Doing version control well can be tricky, fortunately, there are tools to help you.
+(ref:versioncontrol-intro) Version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Version control will help you make changes and improvements to your code with confidence.
 
 (ref:versioncontrol-must) Use [version control](#what_is_vc) and follow guidance on coding in the open.
 
@@ -55,7 +54,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 <!-- Define -->
 
-(ref:easytoread-intro) Keep your code easy to read by using sensible names and a consistent style.
+(ref:easytoread-intro) Keep your code easy to read. Using a consistent style and sensible names will make it easier to collaborate and quality assure work. It will also help you spot errors.
 
 (ref:easytoread-must) Follow the [DHSC adopted style](#style_guides) for your language, use [meaningful names](#meaningful_names) and avoid [overlaps](#dont_overlap).
 
@@ -72,7 +71,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 <!-- Define -->
 
-(ref:correctclearconcise-intro) Write code with your colleagues in mind. They need your code to work correctly, and they will have to understand and check it before they can derive benefit from it being fast or concise. Choose clarity over cleverness – just because you can do it in one line doesn’t mean you should.
+(ref:correctclearconcise-intro) Write code with your colleagues priorities in mind. They need your code to work correctly, and they will have to understand and check it before they can benefit from it being fast or concise.
 
 (ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
 
@@ -89,7 +88,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 <!-- Define -->
 
-(ref:flexiblecode-intro) Often your code will be adapted, repurposed, or applied to something new. Investing some effort in writing flexible code _can_ save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions that cover cases you may never encounter. Find a balance and focus on making your code easy to change when needed.
+(ref:flexiblecode-intro) Write flexible code where it will save time later. Good code is often adapted and repurposed. However, don't try to solve every problem upfront, or try and cover edge cases you may never encounter. Find a balance and focus on making your code easy to change.
 
 (ref:flexiblecode-must) [Break up](#breakup) your code into chunks, with a clear [structure](#structure) and [don't repeat yourself](#dry).
 
@@ -106,16 +105,13 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 <!-- Define -->
 
-(ref:comments-intro) The function of your code should be clear to another team member.
-Comments can be invaluable for capturing why a bit of code exists and what it is doing.
-However, they can also get in the way if there are too many of them or they are inconsistent with the code.
-Comments aren't just for other people, imagine if you return to your code in a years time – would you understand it?
+(ref:comments-intro) Comment your code so that it's function is clear. Well targeted comments make it less likely that avoidable mistakes are made when using or updating your code. Colleagues and your future self will thank you.
 
-(ref:comments-must) Comment your code.
+(ref:comments-must) Write and maintain accurate comments as you code. 
 
-(ref:comments-should) Think about _why_ you are leaving comments, what to capture, and what belongs elsewhere.
+(ref:comments-should) Think carefully about _why_ you are leaving comments, what to capture, and what belongs elsewhere (in documentation).
 
-(ref:comments-could) Review old code you have written - are the comments helpful? what would you include next time?
+(ref:comments-could) Review old code you have written - are the comments helpful? What would you include next time?
 
 <!-- Print -->
 
@@ -126,8 +122,7 @@ Comments aren't just for other people, imagine if you return to your code in a y
 
 <!-- Define -->
 
-(ref:documentation-intro) Commented, and well written code can go a long way to documenting how a project works. However for higher level context it will always be useful to have some separate documentation.
-Code without documentation won't be very useful later!
+(ref:documentation-intro) Maintain documentation for your code. Code is _not_ self documenting and code without documentation won't be useful later. You need to capture higher level context such as what the code is for, why it is written a certain way and what the inputs and outputs are. 
 
 (ref:documentation-must) Produce documentation in line with [Aqua book guidance](#aqua).
 
@@ -144,9 +139,8 @@ Code without documentation won't be very useful later!
 
 <!-- Define -->
 
-(ref:demonstrablycorrect-intro) We need to be confident in the outputs we provide.
-Just because something is done with code doesn't mean it is more likely to be answering the right question, using the right inputs, or doing the calculation correctly.
-As with any analysis, the defence against this is having a clear and robust audit trail which can _demonstrate_ that our output is correct.
+(ref:demonstrablycorrect-intro) Have a clear and robust way to _demonstrate_ your code is correct.
+We need to be confident in the outputs we provide. Just because something is done with code doesn't make it immune from answering the wrong question, using the wrong inputs, or doing the calculation incorrectly.
 
 (ref:demonstrablycorrect-must) Hold your code to the [same standard as any other analysis](#qa_code_too) and record evidence demonstrating it produces the right output.
 
@@ -162,8 +156,7 @@ As with any analysis, the defence against this is having a clear and robust audi
 
 <!-- Define -->
 
-(ref:sensibledefaults-intro) There are basic tasks we all do. We should do these in the same way to make collaboration easier.
-It is not true to say that there is only one right way of tackling a problem, or that one way is the best for all cases. However, collaboration and QA are easier if there is *consistency* in our approaches. That is usually more important than using the absolute best method.
+(ref:sensibledefaults-intro) Do common tasks in a consistent way, following guidance. If we use the same tools and approaches across the department, it makes collaboration and quality assurance easier. This is almost always more important than using the absolute best method.
 
 (ref:sensibledefaults-must) Be aware of the [defaults](#general_defaults), understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.
 
@@ -180,9 +173,7 @@ It is not true to say that there is only one right way of tackling a problem, or
 
 <!-- Define -->
 
-(ref:reproducible-intro) Within DHSC analysis is used to enable evidence based decision making.
-A piece of evidence which you cannot rely on being able to reproduce is not much good.
-There are many reasons your code may not work correctly if someone else tries to run it, as such there is a responsibility to understand how to make your analysis simple and easy to reproduce.
+(ref:reproducible-intro) Work in a way which is reproducible. Within the department, analysis is used to enable evidence based decision making. A piece of evidence which you cannot rely on being able to reproduce is not much good. There are many reproducibility pitfalls and it is our responsibility to overcome them.
 
 (ref:reproducible-must) Keep track of what you have done and document it [unambiguously](#unambiguous_docs) so that someone else can recreate it.
 
@@ -199,8 +190,7 @@ There are many reasons your code may not work correctly if someone else tries to
 
 <!-- Define -->
 
-(ref:datastructures-intro) Programming languages offer many different structures for working with data. Using the right one for the job will often make a task easier, and decrease your chance of getting it wrong.
-At DHSC we are working with data represented in tables. For this type of work, using 'Tidy' data is usually the best approach.
+(ref:datastructures-intro) Use the right data structures for the job. Programming languages offer many different ways to work with the same data. Using the right one will make a task easier, and decrease your chance of getting it wrong.
 
 (ref:datastructures-must) Know what ['Tidy Data'](#tidy_data) is, and understand why it is valuable.
 
@@ -213,7 +203,7 @@ At DHSC we are working with data represented in tables. For this type of work, u
 (ref:datastructures-intro)
 
 
-# Principles Table {-}
+# Summary Table {-}
 
 | Principle                                            	| You Must                       	| You Should                       	| You Could                       	|
 |------------------------------------------------------	|--------------------------------	|----------------------------------	|---------------------------------	|
