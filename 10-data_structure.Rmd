@@ -12,7 +12,7 @@
 |---------------	|------------------------------------------------------------|
 
 ## Tidy Data? {#tidy_data}
-A dataset is a collection of values, usually either numbers (if quantitative) or strings (if qualitative). Values are organised in two ways Every value belongs to a *variable* and an *observation*:
+A dataset is a collection of values, usually either numbers (if quantitative) or strings (if qualitative). Values are organised in two ways; every value belongs to a *variable* and an *observation*:
 
 * A variable contains all values that measure the same underlying attribute (like height, temperature, duration) across units.
 * An observation contains all values measured on the same *unit* (like a person, or a day, or a race) across attributes.
