@@ -73,7 +73,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:correctclearconcise-intro) Write code with your colleagues priorities in mind. They need your code to work correctly, and they will have to understand and check it before they can benefit from it being fast or concise.
 
-(ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
+(ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and that it is [clear](#ccfc_clear) how it functions. 
 
 (ref:correctclearconcise-should) Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where possible _without_ sacrificing correctness, clarity or excessive resource! Record choices made to achieve this balance.
 
