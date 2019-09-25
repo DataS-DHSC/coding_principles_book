@@ -1,0 +1,47 @@
+# R at DHSC {#r_at_dhsc}
+
+The following are the DHSC [sensible defaults](#sensible_defaults) for R:
+
+## R Version & IDE
+The dominant IDE for R is Rstudio, which comes packaged with R. 
+For a new project you should use the latest version available from the software portal.
+
+## Default Packages and Add Ins {#r_default_packages}
+
+Default to packages from the [Tidyverse](http://tidyverse.org/), because they have been carefully designed to work together effectively as part of a modern data analysis workflow. More info can be found here: [R for Data Science by Hadley Wickham](http://r4ds.had.co.nz). 
+
+For example:
+
+   * Prefer tibbles to data.frames
+   * Use ggplot2 rather than base graphics
+   * Use the pipe `%>%` rather than nesting function calls, but not always e.g. see [here](https://twitter.com/hadleywickham/status/603883121197514752).
+   * Prefer `purrr` to the `apply` family of functions. See [here](http://r4ds.had.co.nz/iteration.html#the-map-functions)
+
+## Project Workflow {#r_projects}
+Always work in a project. See the guide to [Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects).
+
+Projects functionality is broken in DHSC's packaged version of Rstudio - see the fix here:
+
+## Packaging Your Code {#r_package}
+Packages are the fundamental unit of reproducible R code. 
+Therefore, if possible, build an R Package to share and document your code. 
+
+Hadley's book on [R Packages](http://r-pkgs.had.co.nz/) is an effective guide on how to produce a package.
+
+The [usethis](https://usethis.r-lib.org/) package has lots of useful shortcuts which.
+
+## Managing Dependencies {#r_dependencies}
+There are two key competing ways of managing dependencies for an R Project:
+
+* [`packrat`](https://rstudio.github.io/packrat/) - current established way to 
+* [`renv`](https://rstudio.github.io/renv/) - still maturing, successor to packrat
+
+See also:
+
+* Rstudio page on [managing environments in R](https://environments.rstudio.com/)
+* Rbloggers [post on renv](https://www.r-bloggers.com/reproducible-environments/)
+* Rstudio page on combining [renv and docker](https://rstudio.github.io/renv/articles/docker.html)
+
+## Unit Testing {#r_tests}
+Use the `testthat` package for performing unit tests. 
+For details see the ['tests' chapter of R Packages](https://r-pkgs.org/tests.html).

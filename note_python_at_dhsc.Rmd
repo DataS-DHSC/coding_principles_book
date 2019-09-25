@@ -1,0 +1,31 @@
+# Python at DHSC {#py_at_dhsc}
+The following are the DHSC [sensible defaults](#sensible_defaults) for Python:
+
+## Version & IDE
+Use Python 3 via Jupyter Notebooks or VSCode.
+
+## Default Packages and Add Ins {#py_default_packages}
+* Use pandas for data analysis and reshaping
+    * Use `loc` and `iloc` to index into data frames
+* Use Altair for basic data visualisation
+* Use Scikit Learn for machine learning
+* Use SQLAlchemy and pandas for database interactions, rather than writing your own SQL
+
+## Project Workflow {#py_projects}
+
+Python has many different options, all supported by different IDEs and tools:
+
+* Anaconda & Conda Projects - [Getting started with Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+
+* Pycharm Projects - [Pycharm Projects](https://www.jetbrains.com/help/pycharm/project.html)
+
+## Packaging Your Code {#py_packages}
+
+Python - [Packaging Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+
+## Managing Dependencies {#py_dependencies}
+
+Virtual Environments [venv](https://docs.python.org/3/library/venv.html)
+
+## Unit Testing {#py_testing}
