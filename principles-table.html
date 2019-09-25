@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Principle 1 Use Version Control | DHSC Coding Principles</title>
-  <meta name="description" content="Principle 1 Use Version Control | DHSC Coding Principles" />
+  <title>Principles Table | DHSC Coding Principles</title>
+  <meta name="description" content="Principles Table | DHSC Coding Principles" />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Principle 1 Use Version Control | DHSC Coding Principles" />
+  <meta property="og:title" content="Principles Table | DHSC Coding Principles" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Principle 1 Use Version Control | DHSC Coding Principles" />
+  <meta name="twitter:title" content="Principles Table | DHSC Coding Principles" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="principles-table.html"/>
-<link rel="next" href="easy-to-read.html"/>
+<link rel="prev" href="principles-overview.html"/>
+<link rel="next" href="version-control.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -172,78 +172,98 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="version_control" class="section level1">
-<h1><span class="header-section-number">Principle 1</span> Use Version Control</h1>
-<p>It’s important to version control your code so you and your collaborators can track changes over time, trace back errors, and retrieve old versions. Doing version control well can be tricky, fortunately, there are tools to help you.</p>
-<p><strong>You Must</strong> - Use <a href="version-control.html#what_is_vc">version control</a> and follow guidance on coding in the open.</p>
-<p><strong>You Should</strong> - Use standard tools (<a href="version-control.html#git">Git</a> &amp; <a href="version-control.html#github">GitHub</a>) to help you version control code.</p>
-<p><strong>You Could</strong> - Use (<a href="version-control.html#git">Git</a> &amp; <a href="version-control.html#github">GitHub</a>) collaboratively and <a href="version-control.html#effective_vc">effectively</a> and agree a version control pattern with your team.</p>
+<div id="principles-table" class="section level1 unnumbered">
+<h1>Principles Table</h1>
 <table>
+<colgroup>
+<col width="35%" />
+<col width="21%" />
+<col width="22%" />
+<col width="21%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>Related Areas:</th>
-<th><a href="demonstrably-correct.html#demonstrably_correct">Demonstrably Correct</a>, <br> <a href="reproducible.html#reproducible">Be Reproducible</a></th>
+<th>Principle</th>
+<th>You Must</th>
+<th>You Should</th>
+<th>You Could</th>
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td><strong><a href="version-control.html#version_control">Use Version Control</a></strong></td>
+<td>Use <a href="version-control.html#what_is_vc">version control</a> and follow guidance on coding in the open.</td>
+<td>Use standard tools (<a href="version-control.html#git">Git</a> &amp; <a href="version-control.html#github">GitHub</a>) to help you version control code.</td>
+<td>Use (<a href="version-control.html#git">Git</a> &amp; <a href="version-control.html#github">GitHub</a>) collaboratively and <a href="version-control.html#effective_vc">effectively</a> and agree a version control pattern with your team.</td>
+</tr>
+<tr class="even">
+<td><strong><a href="easy-to-read.html#easy_to_read">Write Easy to Read Code</a></strong></td>
+<td>Follow the <a href="easy-to-read.html#style_guides">DHSC adopted style</a> for your language, use <a href="easy-to-read.html#meaningful_names">meaningful names</a> and avoid <a href="easy-to-read.html#dont_overlap">overlaps</a>.</td>
+<td>Use a <a href="https://en.wikipedia.org/wiki/Lint_%28software%29">linter</a> or code formatter to ensure that your code conforms to the style guide.</td>
+<td>Review your code with colleagues to make ensure your names and style promote understanding.</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="correct-clear-concise.html#correct_clear_concise">Correct, Clear, Fast &amp; Concise - In That Order</a></strong></td>
+<td>Ensure that your code is <a href="correct-clear-concise.html#ccfc_correct">correct</a> and <a href="correct-clear-concise.html#ccfc_clear">clear</a> in its function.</td>
+<td>Make your code <a href="correct-clear-concise.html#ccfc_fast">fast</a> and <a href="correct-clear-concise.html#ccfc_concise">concise</a>, where this is possible <em>without</em> sacrificing correctness, clarity or excessive resource! Document the design choices you have made to achieve this balance.</td>
+<td>Use profiling tools to understand resource usage and <a href="https://en.wikipedia.org/wiki/Code_refactoring">refactor</a> to improve clarity and performance.</td>
+</tr>
+<tr class="even">
+<td><strong><a href="flexible-code.html#flexible_code">Write Flexible Code</a></strong></td>
+<td><a href="flexible-code.html#breakup">Break up</a> your code into chunks, with a clear <a href="flexible-code.html#structure">structure</a> and <a href="flexible-code.html#dry">don’t repeat yourself</a>.</td>
+<td>Think about, and document the way your code might break with different inputs. Include <a href="flexible-code.html#input_validation">input validation</a> to catch mistakes earlier in your code and make it easier to repurpose.</td>
+<td>Implement and test thorough <a href="flexible-code.html#error_handling">error handling</a>. Consider writing and sharing general purposes ‘tool’ code, especially if you solve a problem someone else might have.</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="comments.html#comments">Comment Effectively</a></strong></td>
+<td>Comment your code.</td>
+<td>Think about <em>why</em> you are leaving comments, what to capture, and what belongs elsewhere.</td>
+<td>Review old code you have written - are the comments helpful? what would you include next time?</td>
+</tr>
+<tr class="even">
+<td><strong><a href="documentation.html#documentation">Document Your Work</a></strong></td>
+<td>Produce documentation in line with <a href="documentation.html#aqua">Aqua book guidance</a>.</td>
+<td>Assemble documentation <a href="documentation.html#as_you_go">as you code</a>.</td>
+<td>Use document generation tools to produce <a href="documentation.html#doxygen">documentation</a>.</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="demonstrably-correct.html#demonstrably_correct">Be Demonstrably Correct</a></strong></td>
+<td>Hold your code to the <a href="demonstrably-correct.html#qa_code_too">same standard as any other analysis</a> and record evidence demonstrating it produces the right output.</td>
+<td>Use <a href="version-control.html#version_control">version control</a> to unambiguously link QA to code and outputs and construct <a href="demonstrably-correct.html#unit_tests">automated tests</a> to provide confidence that changes don’t break things.</td>
+<td>Make a fully automated <a href="demonstrably-correct.html#rap_demonstrable">reproducible analytical pipeline (RAP)</a> which incorporates checks and validation and minimises opportunity for human error.</td>
+</tr>
+<tr class="even">
+<td><strong><a href="sensible-defaults.html#sensible_defaults">Use Sensible Defaults</a></strong></td>
+<td>Be aware of the <a href="sensible-defaults.html#general_defaults">defaults</a>, understand why we have them and follow them unless you can explain how the benefits of an alternative approach outweigh those of consistency.</td>
+<td>Help define what the defaults should be, and actively participate in discussion and debate to keep them up to date and relevant.</td>
+<td>Proactively review and compare the defaults used with the way you work.</td>
+</tr>
+<tr class="odd">
+<td><strong><a href="reproducible.html#reproducible">Be Reproducible</a></strong></td>
+<td>Keep track of what you have done and document it <a href="reproducible.html#unambiguous_docs">unambiguously</a> so that someone else can recreate it.</td>
+<td>Write <a href="reproducible.html#portability">portable</a> code, in a standard <a href="reproducible.html#projects">project structure</a> so that it is <em>easy</em> for someone else to run it.</td>
+<td>Turn your code into a <a href="reproducible.html#packages">package / library / module</a>, learn and promote <a href="reproducible.html#rap_section">RAP</a> techniques, or use <a href="reproducible.html#containers">containers</a> to achieve reproducibility.</td>
+</tr>
+<tr class="even">
+<td><strong><a href="data-structure.html#data_structure">Use Appropriate and Tidy Data</a></strong></td>
+<td>Know what <a href="data-structure.html#tidy_data">‘Tidy Data’</a> is, and understand why it is valuable.</td>
+<td>Be familiar with the <a href="data-structure.html#data_types">data types</a> and structures available to you and ensure that you use the right ones.</td>
+<td>Think about relationships between datasets, design <a href="data-structure.html#schema">schemas</a> and store data in an efficient way.</td>
+</tr>
 </tbody>
 </table>
-<div id="what_is_vc" class="section level2">
-<h2><span class="header-section-number">1.1</span> What is version control?</h2>
-<p>Version control is managing changes to the documents and files which make up your work. This typically includes a system for identifying versions (i.e. a version number or name) and some sort of log of what the changes are, who made them and when they were made. Version control systems are usually associated with tools for comparing, restoring and merging versions.</p>
-</div>
-<div id="git" class="section level2">
-<h2><span class="header-section-number">1.2</span> Git - (program for version control)</h2>
-<p><a href="https://en.wikipedia.org/wiki/Git">Git</a> is the most popular way to version control code. You can tell Git to keep track of a folder full of code (a repository or ‘repo’). As you make changes, Git identifies them and asks which should be kept (or ‘committed’), and for a comment identifying why. It uses this to maintain a log of all the changes. This log can be used to restore old versions.</p>
-</div>
-<div id="github" class="section level2">
-<h2><span class="header-section-number">1.3</span> GitHub - (service for storing code version controlled using git)</h2>
-<p><a href="https://github.com/">GitHub</a> is the most popular place to store git repositories. Storing your repository on GitHub has some key benefits:</p>
-<ul>
-<li>It acts as a backup of your code &amp; its history</li>
-<li>Other people can see your code, download it and collaborate with you.</li>
-</ul>
-<p>As such, using a service like GitHub is a good way to ensure that your code is available to your team, and that knowledge is transferred.</p>
-</div>
-<div id="effective_vc" class="section level2">
-<h2><span class="header-section-number">1.4</span> Using Git &amp; GitHub Effectively</h2>
-<p>To make effective use of Git and GitHub:</p>
-<ul>
-<li><p>Follow the <a href="https://gds-way.cloudapps.digital/standards/git.html">GDS Git Style Guide</a></p></li>
-<li><p>Commit code in small chunks, as often as possible, and write a descriptive comment with each commit. This makes your repository much more useful in the future and is called doing <a href="https://seesparkbox.com/foundry/atomic_commits_with_git">‘atomic commits’</a>.</p></li>
-<li><p>Commit changes using an account which is specific to you so that it is clear in future who changed what.</p></li>
-<li><p>Define a version control pattern which explains how you use git as a team. This could include how you use <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell">branches</a>, how you merge changes and how to handle <a href="https://help.github.com/en/articles/about-pull-requests">pull requests</a>.</p></li>
-</ul>
-</div>
-<div id="code-in-the-open" class="section level2">
-<h2><span class="header-section-number">1.5</span> Code in the Open</h2>
-<p>GitHub repositories can be <em>open</em> (shared with anyone) or <em>private</em> (shared only with selected collaborators).</p>
-<p>The <a href="https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice#be-open-and-use-open-source">Technology Code of Practice</a> encourages us to ‘be open and use open source’. As such, <strong>code should be open unless there is a good reason for it not to be.</strong></p>
-<p>Good reasons for code to be private might be that it includes classified material, or information on an unreleased policy. GDS have published guidance on this for both <a href="https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed">external</a>, and <a href="https://gds-way.cloudapps.digital/standards/publish-opensource-code.html">internal</a> use.</p>
-</div>
-<div id="manual-version-control" class="section level2">
-<h2><span class="header-section-number">1.6</span> Manual Version Control</h2>
-<p>It is <em>possible</em> to manually keep track of your code by systematically keeping copies of your code as you modify it and maintaining a corresponding log of all changes to the code. The log should include: What has changed, why, and a link to the relevant copy of the files. It is recommended to use version control tools (git) instead of this manual process.</p>
-</div>
-<div id="git-github-at-dhsc" class="section level2">
-<h2><span class="header-section-number">1.7</span> Git &amp; GitHub at DHSC</h2>
-<p>At present, DHSC base machines do not have git. If you have access to a developer account you can install git for windows from: <a href="https://git-scm.com/download/win">git-scm.com</a> It is anticipated that in the near future TAP (The Analytical Platform) will provide git functionality for all analysts within the department.</p>
-</div>
-<div id="useful-git-resources" class="section level2">
-<h2><span class="header-section-number">1.8</span> Useful git resources</h2>
-<ul>
-<li><a href="https://happygitwithr.com/">happygitwithr</a></li>
-</ul>
 
 </div>
-</div>
+
+
+
             </section>
 
           </div>
         </div>
       </div>
-<a href="principles-table.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="easy-to-read.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="principles-overview.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="version-control.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
