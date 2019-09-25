@@ -1,9 +1,0 @@
-# DHSC Sensible Defaults for Python {#python_defaults}
-The following are the DHSC [sensible defaults](#sensible_defaults) for Python:
-
-* Use Python 3
-* Use pandas for data analysis
-    * Use `loc` and `iloc` to write to data frames
-* Use Altair for basic data visualisation
-* Use Scikit Learn for machine learning
-* Use SQLAlchemy and pandas for database interactions, rather than writing your own SQL
