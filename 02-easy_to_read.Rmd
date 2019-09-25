@@ -11,7 +11,7 @@
 |Related Areas: 	| [Comments](#comments) <br> [Flexible Code](#flexible_code) <br> [Documentation](#documentation)  |
 |---------------	|------------------------------------------------------------|
 
-## Style Guides
+## Style Guides {#style_guides}
 Most languages have several available style guides, which define a set of conventions to produce clean and consistently formatted code. Your style guide will define things like:
 
 * How to use indentation and spacing
@@ -19,9 +19,22 @@ Most languages have several available style guides, which define a set of conven
 * Add comment blocks at the start of your code
 * Favour named indexes and iterators
 
-DHSC has adopted a single style for each language to promote consistency. See 
-[style guides](#style_guides) and 
-[Linters](#linters) for more.
+DHSC has adopted a single style guide for each language.
+Please use this style; consistency will make it easier for colleagues to understand, QA and improve your code!
+
+| Language | DHSC Adopted Style Guide                              |
+|----------|-------------------------------------------------------|
+| R        | [tidyverse style guide](https://style.tidyverse.org/) |
+| Python   |    [PEP-8](https://www.python.org/dev/peps/pep-0008/) |
+
+## Linters & Code Formatters {#linters}
+[Linters](https://en.wikipedia.org/wiki/Lint_%28software%29) are tools that you can use to ensure that you are following a given style guide.
+
+| Language | DHSC Recommended Linter                             |
+|----------|-------------------------------------------------------|
+| R        | [Styler](http://styler.r-lib.org/) |
+| Python   |    [Black](https://pypi.org/project/black/) |
+
 
 ## Meaningful Names {#meaningful_names}
 Names convey meaning, naming functions & variables well can remove the need for
