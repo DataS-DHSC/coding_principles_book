@@ -4,7 +4,7 @@
 
 **You Must** - Keep track of what you have done and document it [unambiguously](#unambiguous_docs) so that someone else can recreate it.
 
-**You Should** - Write [portable](#portability) code, in a standard project structure so that it is _easy_ for someone else to run it.
+**You Should** - Write [portable](#portability) code, in a standard [project structure](#projects) so that it is _easy_ for someone else to run it.
 
 **You Could** - Turn your code into a [package / library / module](#packages), learn and promote [RAP](#rap_section) techniques, or use [containers](#containers) to achieve reproducibility.
 
@@ -31,6 +31,28 @@ There are some simple thing you can do to improve the chance that your code runs
 * Use relative paths, not absolute paths. ([Wikipedia - Absolute and Relative Paths](https://en.wikipedia.org/wiki/Path_%28computing%29#Absolute_and_relative_paths)).
 * Use a standard and consistent structure for organising your work. See [Projects and Environments](#projects) for more details.
 
+## Project Structure {#projects}
+Most languages offer tools and templates for a project based workflow.
+Typically these include a way of organising the following components:
+
+* Source Data
+* Code
+* Outputs
+* Environment / Dependencies
+* Documentation
+
+By following a standard template for these components you can take advantage of workflow tools provided by your IDE which make it easier to:
+
+* Version Control your work
+* Organise your code and source data
+* Refactoring and improving your code
+* Producing documentation
+* Control your environment and dependencies
+
+All of these things are good for sharing or collaborating with others.
+
+See [R at DHSC](#r_projects) and [Python at DHSC](#py_projects) for more information,
+
 ## Reproducible Analytical Pipelines {#rap_section}
 There is a government community dedicated to the production of reproducible analysis.
 See [Reproducible Analytical Pipelines](#rap) for more.
@@ -38,7 +60,14 @@ See [Reproducible Analytical Pipelines](#rap) for more.
 ## Packages and Modules {#packages}
 Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.
 
-There is no reason you can't use the same approach to sharing your analysis! See [Packages](#packages) for more.
+There is no reason you can't use the same approach to sharing your analysis!
 
-## Containers & Virtual Machines {#containers}
-Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. See [Containers](#containers) for more.
+See [R at DHSC](#r_packages) and [Python at DHSC](#py_packages) for more information,
+
+## Containers / Docker {#containers}
+Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. 
+
+[Docker](https://www.docker.com/) is a [containerisation](https://en.wikipedia.org/wiki/OS-level_virtualisation) platform, which lets you reproduce environments with a wider scope than just the packages present. 
+With Docker you can manage the entire environment from the operating system and network up (including any packages). 
+
+You can use tools such as [docker-compose](https://docs.docker.com/compose/) and [Kubernetes](https://kubernetes.io/) to manage groups of containers relative to one another.
