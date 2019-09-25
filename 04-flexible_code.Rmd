@@ -11,9 +11,7 @@
 |Related Areas: 	| [Comments](#comments) <br> [Data Structure](#data_structure) |
 |---------------	|------------------------------------------------------------|
 
-##  Break up your code and don't repeat yourself
-[Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a common idea in programming. Instead of writing a bit of code several times to repeat an operation, you would re-use the same code by turning it into a function (or some other re-useable chunk - a method or subroutines).
-
+## Break up Your Code {#breakup}
 You should look to break up your code into chunks rather than working in a single long script or program.
 Each chunk of code should have a clear purpose.
 You can then use call on these chunks of code to build your analysis.
@@ -24,6 +22,9 @@ There are many reasons to do this:
 * It's easier to make changes to your code.
 * It's easier to understand what has changed and what the effect is.
 * You only have to document each chunk once.
+
+## Don't Repeat Yourself {#dry}
+[Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) is a common idea in programming. Instead of writing a bit of code several times to repeat an operation, you should re-use the same code by turning it into a function (or some other re-useable chunk - such as a method or subroutine).
 
 ## Input Validation {#input_validation}
 Think carefully about the input required for your code to work correctly: 
@@ -40,6 +41,10 @@ This will make it easier to repurpose with confidence in future.
 You may want to consider adding [error handling]{#error_handling} to handle what happens if what these checks aren't met.
 
 ## Structure {#structure}
+Think about the structure and sequence of your code. Keep inputs and key parameters that might need to change in a separate section which is easy to find. 
+
+In some cases it may be appropriate to store such inputs in separate files which are read in, rather than storing them within the code.
+
 ## Error Handling {#error_handling}
 Its likely your code will be asked to do something you didn't design it for, and it will break.
 
