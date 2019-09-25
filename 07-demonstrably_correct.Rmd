@@ -11,13 +11,16 @@
  |Related Areas: 	| [Version Control](#version_control) <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|
 
-## QA Applies to Code {#qa_code_too}
-Code is not exempt from Quality Assurance processes. As with any other analysis you need to record evidence that your code is:
+## Quality Assurance Applies to Code {#qa_code_too}
+Just because you have written code rather then making a spreadsheet doesnt mean your analysis is correct.
+Code is not exempt from Quality Assurance processes. 
+As with any other analysis you need to record evidence that your code is:
 
-* doing the right thing,
-* structured in a sensible way
+* doing the right thing
 * using valid inputs
-* producing a sensible answer
+* producing a sensible answer.
+
+You should refer to the Analytical Modelling Oversight Committee (AMOC) Quality Assurance (QA) [materials](https://dhexchange.kahootz.com/connect.ti/Testanalysts/view?objectId=13590448) which contain useful prompts and frameworks for quality assuring analysis of different size, importance and complexity.
 
 ## Testing Frameworks {#unit_tests}
 Your code and analysis will grow and evolve. You wont have time to QA every version, and it can be tricky to keep track of which bits of QA have been made obsolete due to new or changed code.
