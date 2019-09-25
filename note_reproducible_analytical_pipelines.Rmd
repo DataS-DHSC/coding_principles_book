@@ -26,7 +26,7 @@ You can do this by:
 
     * The [`doit`](https://pydoit.org/) package can do the same and more for python. The [python wiki](https://wiki.python.org/moin/ConfigurationAndBuildTools) also has a list of build tools for python.
 
-## Code version linked to outputs
+## Code Version Linked to Outputs
 You might successfully implement an automated pipeline and a reproducible environment. However unless you know which version of these was used to produce an output you might well come unstuck!
 
 Make sure that you can track backwards and determine which version of your code produced a particular output.
