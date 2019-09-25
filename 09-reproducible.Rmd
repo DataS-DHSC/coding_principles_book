@@ -11,7 +11,7 @@
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Documentation](#documentation)  |
 |---------------	|------------------------------------------------------------|
 
-## Unambiguous documentation for reproducibility {#unambiguous_docs}
+## Unambiguous Documentation for Reproducibility {#unambiguous_docs}
 To be able to reproduce your analysis a colleague may need the following:
 
 * The right copy of the code
@@ -51,7 +51,7 @@ By following a standard template for these components you can take advantage of 
 
 All of these things are good for sharing or collaborating with others.
 
-See [R at DHSC](#r_projects) and [Python at DHSC](#py_projects) for more information,
+See [R at DHSC](#r_projects) and [Python at DHSC](#py_projects) for more information.
 
 ## Reproducible Analytical Pipelines {#rap_section}
 There is a government community dedicated to the production of reproducible analysis.
@@ -62,10 +62,10 @@ Most languages have a standard structure which is used to share code and documen
 
 There is no reason you can't use the same approach to sharing your analysis!
 
-See [R at DHSC](#r_packages) and [Python at DHSC](#py_packages) for more information,
+See [R at DHSC](#r_packages) and [Python at DHSC](#py_packages) for more information.
 
 ## Containers / Docker {#containers}
-Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment. 
+Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment.
 
 [Docker](https://www.docker.com/) is a [containerisation](https://en.wikipedia.org/wiki/OS-level_virtualisation) platform, which lets you reproduce environments with a wider scope than just the packages present. 
 With Docker you can manage the entire environment from the operating system and network up (including any packages). 
