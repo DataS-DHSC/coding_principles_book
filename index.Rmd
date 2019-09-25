@@ -54,7 +54,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 **4) [Write Flexible Code]**
 
-(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Preparing for this upfront and writing flexible code can save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions for problems you may never encounter. Instead focus on making your code easy to change when needed:
+(ref:flexiblecodeintro) Often your code will be adapted, repurposed, or applied to something new. Investing some effort in writing flexible code _can_ save time later. This does **not** mean trying to solve every conceivable problem upfront, or writing general purpose functions that cover cases you may never encounter. Find a balance and focus on making your code easy to change when needed.
 
 (ref:flexiblecodeintro)
 
