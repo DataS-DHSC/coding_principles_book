@@ -25,7 +25,6 @@ There are many reasons to do this:
 * It's easier to understand what has changed and what the effect is.
 * You only have to document each chunk once.
 
-## Error Handling
 ## Input Validation {#input_validation}
 Think carefully about the input required for your code to work correctly: 
 
@@ -41,6 +40,7 @@ This will make it easier to repurpose with confidence in future.
 You may want to consider adding [error handling]{#error_handling} to handle what happens if what these checks aren't met.
 
 ## Structure {#structure}
+## Error Handling {#error_handling}
 Its likely your code will be asked to do something you didn't design it for, and it will break.
 
 You do know however what your code *should* be doing, what the input is expected to look like, and the properties of the output. You also probably have an idea of what your would *like* it to do when it doesn't work correctly.
