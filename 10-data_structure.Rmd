@@ -2,7 +2,7 @@
 
 (ref:datastructuresintro)
 
-**You Must** - Know what [Tidy data](#tidy_data) is, and understand why it is valuable.
+**You Must** - Know what ['Tidy Data'](#tidy_data) is, and understand why it is valuable.
 
 **You Should** - Be familiar with the [data types](#data_types) and structures available to you and ensure that you use the right ones.
 
