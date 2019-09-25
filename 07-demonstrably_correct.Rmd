@@ -20,13 +20,14 @@ As with any other analysis you need to record evidence that your code is:
 * using valid inputs
 * producing a sensible answer.
 
-You should refer to the Analytical Modelling Oversight Committee (AMOC) Quality Assurance (QA) [materials](https://dhexchange.kahootz.com/connect.ti/Testanalysts/view?objectId=13590448) which contain useful prompts and frameworks for quality assuring analysis of different size, importance and complexity.
+You should refer to the Analytical Modelling Oversight Committee (AMOC) [Quality Assurance (QA) materials](https://dhexchange.kahootz.com/connect.ti/Testanalysts/view?objectId=13590448) which contain useful prompts and frameworks for quality assuring analysis of different size, importance and complexity.
 
 ## Testing Frameworks {#unit_tests}
 Your code and analysis will grow and evolve. You wont have time to QA every version, and it can be tricky to keep track of which bits of QA have been made obsolete due to new or changed code.
 
 There are frameworks which help you construct and run tests on units of your code. These can be a good way to demonstrate that code is working correctly as you update it.
-See [Testing Frameworks](#testing_frameworks) for more details.
+
+See [R at DHSC](#r_tests) and [Python at DHSC](#py_tests) for more details.
 
 ## Version Control Integration
 Having unit tests, and QA is good. Ideally however you can tie a particular result to a particular version of the QA'd and tested code. You _could_ do this manually, by keeping the code for each set of outputs.
