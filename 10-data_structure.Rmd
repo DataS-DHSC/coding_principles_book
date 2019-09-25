@@ -33,7 +33,7 @@ Data *types* are the basic units which your language uses to store data, things 
 Different types and structures are used for different things, and have different capabilities. To be effective, know about the data types and structures available to you and use the right ones for the job!
 
 ### R
-The R Programming for Data Science book has a good section on the '[Nuts and Bolts](https://bookdown.org/rdpeng/rprogdatascience/r-nuts-and-bolts.html#r-objects)' of R which covers types and structures.
+The R Programming for Data Science book has a good section on the ['Nuts and Bolts'](https://bookdown.org/rdpeng/rprogdatascience/r-nuts-and-bolts.html#r-objects) of R which covers types and structures.
 For more about the different data structures a good resource is the [Advanced R ](http://adv-r.had.co.nz/Data-structures.html) book.
 
 ### Python
