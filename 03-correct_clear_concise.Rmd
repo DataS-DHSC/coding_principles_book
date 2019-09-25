@@ -2,20 +2,21 @@
 
 (ref:correctclearconciseintro)
 
-**You Must** - Write code with these priorities in mind.
+**You Must** - Ensure that your code is [correct](#ccfc_correct) and [clear](#ccfc_clear) in its function. 
 
-**You Should** - Document design choices you have made to balance clarity, speed and concision.
+**You Should** - Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where this is possible _without_ sacrificing correctness, clarity or excessive resource! Document the design choices you have made to achieve this balance.
 
-**You Could** - Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
+**You Could** - 
+Use profiling tools to understand resource usage and [refactor](https://en.wikipedia.org/wiki/Code_refactoring) to improve clarity and performance.
 
 |Related Areas: 	| [Demonstrably Correct](#demonstrably_correct) <br> [Easy to Read Code](#easy_to_read)<br> [Comments](#comments)  |
 |---------------	|------------------------------------------------------------|
 
-## Correct
+## Correct {#ccfc_correct}
 The first priority should always be that the code is correct.
 See the [demonstably correct](#demonsrably_correct) principle.
 
-## Clear
+## Clear {#ccfc_clear}
 It is more valuable to have code that other analysts can quickly understand, than code which runs a little quicker.
 Your work needs to be quality assured - so at least one other person will need to understand what you have written!
 
@@ -23,14 +24,14 @@ Clarity is made up of many components (e.g. comments, easy to read code and data
 But don't overlook the clarity of your approach to the problem.
 Have you done something which will be impossible for someone else to check? Is there a more effective way to do it?
 
-## Fast
+## Fast {#ccfc_fast}
 You may find that you have produced code which takes some time to run.
 If you expect to run it many times, _then_ its time to think about how you could make things faster.
 Don't fall into the trap of optimising before you need to.
 For most languages there are [profiling](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) tools you can use to understand resource usage when you need to.
 
-## Concise
+## Concise {#ccfc_concise}
 Keeping the amount of code you use to achieve a goal at a minimum can often be a good thing.
 There is less code to go wrong or debug, less to explain, style and document.
 But, remember that concision is less important than correctness, clarity and speed.
-Don't make it shorter than it needs to be, and think of the cost to clarity and flexibility.
+Don't make it shorter than it needs to be, and think of the tradeoff with clarity and flexibility.
