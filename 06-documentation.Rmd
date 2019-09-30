@@ -40,3 +40,20 @@ There are popular tools for generating documentation from your code and comments
 There are [many](https://en.wikipedia.org/wiki/Comparison_of_documentation_generators) documentation generators.
 [Doxygen](http://www.doxygen.nl/) or [Roxygen](https://cran.r-project.org/web/packages/roxygen2/)
 are recommended.
+
+## `README.md` {#readme}
+It is good practice to include a README.md document within your repository.
+
+README files typically include information on:
+
+* What the code does
+* Why the code is useful
+* How users can get started with the code
+* Where users can get help with your code
+* Who maintains and contributes to the code
+
+Put the README file in your repository's root (i.e. the top level folder which contains/is the repository). This makes it easy to find. It also means that when you view your repository on github (or other git repository hosting sites), that it will be rendered nicely and prominently displayed.
+
+You can view the README for the repository which produces this book here: [README.md](README.md)
+
+See [About READMEs](https://help.github.com/en/articles/about-readmes) for more. 
