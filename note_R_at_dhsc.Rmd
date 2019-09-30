@@ -6,8 +6,7 @@ The following are the DHSC [sensible defaults](#sensible_defaults) for R:
 The dominant IDE for R is Rstudio, which comes packaged with R. 
 For a new project you should use the latest version of Rstudio available from the software portal.
 
-## Default Packages and Add Ins {#r_default_packages}
-
+## General
 Default to packages from the [Tidyverse](http://tidyverse.org/).These have been carefully designed to work together effectively as part of a modern data analysis workflow. More info can be found here: [R for Data Science by Hadley Wickham](http://r4ds.had.co.nz). 
 
 For example:
@@ -16,6 +15,38 @@ For example:
    * Use ggplot2 rather than base graphics
    * Use the pipe `%>%` rather than nesting function calls. (...but not always e.g. see [here](https://twitter.com/hadleywickham/status/603883121197514752)).
    * Prefer `purrr` to the `apply` family of functions. See [here](http://r4ds.had.co.nz/iteration.html#the-map-functions)
+   
+
+## Packages {#r_default_packages}
+
+Recommended Packages: 
+
+* Data Manupulation and Tidying
+    * [dplyr](https://dplyr.tidyverse.org/)
+    * [tidyr](https://tidyr.tidyverse.org/)
+* Working with messy spreadsheets
+    * [tidyxl](https://nacnudus.github.io/tidyxl/)
+    * [unpivotr](https://github.com/nacnudus/unpivotr)
+* Working with large datasets:
+    * [data.table](https://rdatatable.gitlab.io/data.table/)
+    * [dtplyr](https://dtplyr.tidyverse.org/)
+* Database Interface
+    * [dbplyr](https://dbplyr.tidyverse.org/)
+* Plotting
+    * [ggplot2](https://ggplot2.tidyverse.org/)
+    * [plotly](https://plot.ly/r/)
+* Mapping
+    * [sf](https://github.com/r-spatial/sf/)
+    * [leaflet](http://rstudio.github.io/leaflet/)
+* Reproducibility
+    * [renv](https://rstudio.github.io/renv/)
+* Producing gov.uk style output
+    * [govstyle](http://ukgovdatascience.github.io/govstyle/index.html) (Government Theme for ggplot2)
+    * [govdown](https://ukgovdatascience.github.io/govdown/)
+* Machine Learning
+    * [tensorflow](https://tensorflow.rstudio.com/)
+    * [h2o](https://github.com/h2oai/h2o-3)
+  
 
 ## Project Workflow {#r_projects}
 Always work in a project. See the guide to [Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects).
@@ -41,6 +72,14 @@ See also:
 * Rstudio page on [managing environments in R](https://environments.rstudio.com/)
 * Rbloggers [post on renv](https://www.r-bloggers.com/reproducible-environments/)
 * Rstudio page on combining [renv and docker](https://rstudio.github.io/renv/articles/docker.html)
+
+## Error Handling {#r_errorhandling}
+
+Base R includes the `try()` and `tryCatch()` functions for handling errors. You can find an example of basic use of these on [r-bloggers](https://www.r-bloggers.com/error-handling-in-r/).
+
+Effective error handling in R requires understanding the _conditions_ system. There is a good chapter on this in Hadley's [Advanced R book](https://adv-r.hadley.nz/conditions.html)
+
+If you are iterating over many inputs, it is recommended that you use the `safely()` family of functions from `purrr` to create versions which return errors within a list for handling at a later stage.
 
 ## Unit Testing {#r_tests}
 Use the `testthat` package for performing unit tests. 
