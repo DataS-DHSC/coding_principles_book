@@ -27,8 +27,9 @@ Have you done something which will be impossible for someone else to check? Is t
 ## Fast {#ccfc_fast}
 You may find that you have produced code which takes some time to run.
 If you expect to run it many times, _then_ its time to think about how you could make things faster.
-Don't fall into the trap of optimising before you need to.
-For most languages there are [profiling](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) tools you can use to understand resource usage when you need to.
+But don't fall into the trap of optimising before you need to. Ask yourself how much time you are going to save, if it’s a couple of mins, but the optimising takes you several days, is it worth it?
+
+For most languages there are [profiling](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) tools you can use to understand resource usage when you need to. 
 
 ## Concise {#ccfc_concise}
 Keeping the amount of code you use to achieve a goal at a minimum can often be a good thing.
