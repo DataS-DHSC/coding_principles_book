@@ -11,6 +11,8 @@ output:
       toc:
         collapse: section
         scroll_highlight: yes
+        after: |
+          <li><a href="https://github.com/mattm-dhsc/coding_principles_book" target="blank">Coding Principles Book on GitHub</a></li>
       mathjax: default
     
 ---
