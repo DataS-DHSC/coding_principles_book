@@ -15,9 +15,9 @@
 Most languages have several available style guides, which define a set of conventions to produce clean and consistently formatted code. Your style guide will define things like:
 
 * How to use indentation and spacing
-* Line length
-* Add comment blocks at the start of your code
-* Favour named indexes and iterators
+* Line length 
+* Naming conventions & formats
+* Comment & documentation use
 
 DHSC has adopted a single style guide for each language.
 Please use this style; consistency will make it easier for colleagues to understand, QA and improve your code!
@@ -28,12 +28,12 @@ Please use this style; consistency will make it easier for colleagues to underst
 | Python   |    [PEP-8](https://www.python.org/dev/peps/pep-0008/) |
 
 ## Linters & Code Formatters {#linters}
-[Linters](https://en.wikipedia.org/wiki/Lint_%28software%29) are tools that you can use to ensure that you are following a given style guide.
+[Linters](https://en.wikipedia.org/wiki/Lint_%28software%29) are tools that you can use to ensure that you are following a given style guide. Code Formatters will take your code, and format it so that it conforms to a stanard.
 
-| Language | DHSC Recommended Linter                             |
+| Language | DHSC Recommended Linter / Formatter                   |
 |----------|-------------------------------------------------------|
-| R        | [Styler](http://styler.r-lib.org/) |
-| Python   |    [Black](https://pypi.org/project/black/) |
+| R        |  [lintr](https://github.com/jimhester/lintr) / [Styler](http://styler.r-lib.org/) |
+| Python   |  [pylint](https://www.pylint.org/) / [Black](https://pypi.org/project/black/) |
 
 
 ## Meaningful Names {#meaningful_names}
@@ -42,8 +42,12 @@ a comment and make life easier for other readers. This includes your future self
 
 Find a balance: avoid meaningless names like `obj` or `foo`; but don't put an entire sentence in a variable name.
 
+Generally, variable names should be nouns and function names should be verbs. You 
+
 Use single-letter variables only where the use or meaning is clear - such as an iterator for a loop,
 or where the letter represents a well-known mathematical property (think: $e = mc^2$).
+
+If you find yourself attempting to cram data into variable names (e.g. model_2018, model_2019, model_2020), consider using a list or array instead.
 
 ## Avoid Overlaps {#dont_overlap}
 When naming things be wary of overlapping with other meanings. In one context, using $e$ for energy or $i$ for an iterator might be sensible, but in another context might be confused with $e$ for exponent and $i$ for imaginary as in: $e^{iθ} = cos(θ) + i sin(θ)$.
@@ -51,5 +55,5 @@ When naming things be wary of overlapping with other meanings. In one context, u
 Be conscious of overlapping names with things which are parts of the language, or popular functions. 
 For example in Python, you probably want to avoid common abbreviated library names (`np` or `pd`), or in R be careful about overwriting things like `c` which is the name of the function used to make a vector.
 
-## Name Formats
+## Name Formats {#name_formats}
 Follow your style guide and format your names consistently (i.e. using [camelCase](https://en.wikipedia.org/wiki/Camel_case) or [snake_case](https://en.wikipedia.org/wiki/Snake_case)).
