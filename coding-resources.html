@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>D Reproducible Analytical Pipelines | DHSC Coding Principles</title>
-  <meta name="description" content="D Reproducible Analytical Pipelines | DHSC Coding Principles" />
+  <title>A Coding Resources | DHSC Coding Principles</title>
+  <meta name="description" content="A Coding Resources | DHSC Coding Principles" />
   <meta name="generator" content="bookdown 0.13 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="D Reproducible Analytical Pipelines | DHSC Coding Principles" />
+  <meta property="og:title" content="A Coding Resources | DHSC Coding Principles" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="D Reproducible Analytical Pipelines | DHSC Coding Principles" />
+  <meta name="twitter:title" content="A Coding Resources | DHSC Coding Principles" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="r-at-dhsc.html"/>
-
+<link rel="prev" href="data-structure.html"/>
+<link rel="next" href="py-at-dhsc.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -194,47 +194,73 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="rap" class="section level1">
-<h1><span class="header-section-number">D</span> Reproducible Analytical Pipelines</h1>
-<p>Automating the steps used to create a your report or output is a good way to avoid the human errors that manual intervention will introduce.</p>
-<p>This is the focus of the Reproducible Analytical Pipelines community. The RAP community has curated the following resources:</p>
+<div id="coding-resources" class="section level1">
+<h1><span class="header-section-number">A</span> Coding Resources</h1>
+<p>The intent of this section is to act as an index of resources which may be of use to DHSC analysts writing code.</p>
+<div id="government" class="section level2">
+<h2><span class="header-section-number">A.1</span> Government</h2>
 <ul>
-<li><a href="https://ukgovdatascience.github.io/rap-website/">RAP Website</a></li>
-<li><a href="https://www.udemy.com/reproducible-analytical-pipelines/">Udemy Course</a></li>
-</ul>
-<div id="automating-pipelines" class="section level2">
-<h2><span class="header-section-number">D.1</span> Automating Pipelines</h2>
-<p>You can do this by:</p>
-<ul>
-<li><p>Designing a final output which can be created without manual intervention.</p></li>
-<li>Making sure your code is broken down into chunks which do discrete tasks in your pipeline, for example:
-<ul>
-<li>gathering</li>
-<li>cleaning</li>
-<li>processing and modelling</li>
-<li>reporting and visualisation</li>
-</ul></li>
-<li><p>Taking advantage of tools which keep track of the interactions between your data and code. These tools can then re-run the required bits of your pipeline automatically as you update, correct and improve it.</p>
-<ul>
-<li><p><a href="https://www.gnu.org/software/make/">GNU Make</a> is the classic tool and is language agnostic, but perhaps not user friendly.</p></li>
-<li><p>The <a href="https://ropenscilabs.github.io/drake-manual/"><code>drake</code></a> package is designed for analysis pipelines in R.</p></li>
-<li><p>The <a href="https://pydoit.org/"><code>doit</code></a> package can do the same and more for python. The <a href="https://wiki.python.org/moin/ConfigurationAndBuildTools">python wiki</a> also has a list of build tools for python.</p></li>
-</ul></li>
+<li><a href="https://govdatascience.slack.com">Gov Data Science Slack</a></li>
+<li><a href="https://ukgovdatascience.github.io/rap-website/">Reproducible Analytical Pipelines</a></li>
 </ul>
 </div>
-<div id="code-version-linked-to-outputs" class="section level2">
-<h2><span class="header-section-number">D.2</span> Code Version Linked to Outputs</h2>
-<p>You might successfully implement an automated pipeline and a reproducible environment. However unless you know which version of these was used to produce an output you might well come unstuck!</p>
-<p>Make sure that you can track backwards and determine which version of your code produced a particular output.</p>
-<p>You can do this by:</p>
+<div id="r-1" class="section level2">
+<h2><span class="header-section-number">A.2</span> R</h2>
 <ul>
-<li>Use git to version control your code</li>
-<li>Make ‘atomic’ commits which relate to individual Changes</li>
-<li>include the git hash (identifies the code) in the output
+<li><a href="https://scotland.shinyapps.io/nhs-r-resources/">NHS Scotland R Resources</a></li>
+<li><a href="https://style.tidyverse.org/">Tidyverse Style Guide</a></li>
+</ul>
+<div id="books" class="section level3">
+<h3><span class="header-section-number">A.2.1</span> Books</h3>
 <ul>
-<li>R: <a href="https://docs.ropensci.org/git2r/">git2r</a></li>
-<li>Python: <a href="https://gitpython.readthedocs.io/en/stable/">gitpython</a></li>
-</ul></li>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science</a></li>
+<li><a href="https://r-pkgs.org/">R Packages</a></li>
+<li><a href="https://adv-r.hadley.nz/">Advanced R</a></li>
+</ul>
+</div>
+<div id="communities" class="section level3">
+<h3><span class="header-section-number">A.2.2</span> Communities</h3>
+<ul>
+<li><a href="https://nhsrcommunity.com/">NHS R Community</a></li>
+<li><a href="https://rladies.org/">R Ladies</a></li>
+</ul>
+</div>
+<div id="websites-and-blogs" class="section level3">
+<h3><span class="header-section-number">A.2.3</span> Websites and Blogs</h3>
+<ul>
+<li><a href="https://www.r-bloggers.com">R-Bloggers</a></li>
+</ul>
+</div>
+<div id="guides-tutorials-and-courses" class="section level3">
+<h3><span class="header-section-number">A.2.4</span> Guides, Tutorials and Courses</h3>
+<ul>
+<li><a href="https://holtzy.github.io/Pimp-my-rmd/">R Markdown Tips</a></li>
+</ul>
+</div>
+</div>
+<div id="python-1" class="section level2">
+<h2><span class="header-section-number">A.3</span> Python</h2>
+<div id="books-1" class="section level3">
+<h3><span class="header-section-number">A.3.1</span> Books</h3>
+<ul>
+<li><a href="https://wesmckinney.com/pages/book.html">Python for Data Analysis</a></li>
+</ul>
+</div>
+<div id="communities-1" class="section level3">
+<h3><span class="header-section-number">A.3.2</span> Communities</h3>
+</div>
+<div id="websites-and-blogs-1" class="section level3">
+<h3><span class="header-section-number">A.3.3</span> Websites and Blogs</h3>
+</div>
+<div id="guides-and-tutorials" class="section level3">
+<h3><span class="header-section-number">A.3.4</span> Guides and Tutorials</h3>
+</div>
+</div>
+<div id="git" class="section level2">
+<h2><span class="header-section-number">A.4</span> Git</h2>
+<ul>
+<li><a href="https://gds-way.cloudapps.digital/standards/git.html">GDS git style guide</a></li>
+<li><a href="https://happygitwithr.com/">Happy Git with R</a></li>
 </ul>
 
 </div>
@@ -244,8 +270,8 @@
           </div>
         </div>
       </div>
-<a href="r-at-dhsc.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="data-structure.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="py-at-dhsc.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
