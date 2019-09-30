@@ -43,7 +43,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:versioncontrol-should) Use standard tools ([Git](#git) & [GitHub](#github)) to help you version control code.
 
-(ref:versioncontrol-could) Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc) and agree a version control pattern with your team.
+(ref:versioncontrol-could) With your team, agree and design a version control [workflow](#workflow_vc). Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc). 
 
 <!-- Print -->
 
