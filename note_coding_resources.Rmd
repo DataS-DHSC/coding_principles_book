@@ -1,0 +1,57 @@
+# Coding Resources {}
+
+The intent of this section is to act as an index of resources which may be of use to DHSC analysts writing code.
+
+## Government
+
+* [Gov Data Science Slack](https://govdatascience.slack.com)
+* [Reproducible Analytical Pipelines](https://ukgovdatascience.github.io/rap-website/)
+
+## R
+
+* [NHS Scotland R Resources](https://scotland.shinyapps.io/nhs-r-resources/)
+* [Tidyverse Style Guide](https://style.tidyverse.org/)
+
+
+### Books
+
+* [R for Data Science](https://r4ds.had.co.nz/)
+* [R Packages](https://r-pkgs.org/)
+* [Advanced R](https://adv-r.hadley.nz/)
+
+### Communities
+
+* [NHS R Community](https://nhsrcommunity.com/)
+* [R Ladies](https://rladies.org/)
+
+### Websites and Blogs
+
+* [R-Bloggers](https://www.r-bloggers.com)
+
+
+### Guides, Tutorials and Courses
+
+* [R Markdown Tips](https://holtzy.github.io/Pimp-my-rmd/)
+
+
+## Python
+
+### Books
+
+* [Python for Data Analysis](https://wesmckinney.com/pages/book.html) 
+
+### Communities
+
+### Websites and Blogs
+
+### Guides and Tutorials
+
+## Git
+
+* [GDS git style guide](https://gds-way.cloudapps.digital/standards/git.html)
+* [Happy Git with R](https://happygitwithr.com/)
+
+
+
+
+
