@@ -311,15 +311,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="cf">try</span>:
     <span class="bu">print</span>(<span class="dv">0</span><span class="op">/</span><span class="dv">0</span>) 
 <span class="cf">except</span> <span class="pp">ZeroDivisionError</span>: 
-    <span class="bu">print</span> (<span class="st">&quot;Cannot divide by O!&quot;</span> ) 
-Cannot divide by O<span class="op">!</span> </code></pre></div>
+    <span class="bu">print</span> (<span class="st">&quot;Cannot divide by O!&quot;</span> ) </code></pre></div>
 <pre><code>Cannot divide by O! </code></pre>
 <p>And to handle different types of errors:</p>
-<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="bu">print</span>(<span class="dv">0</span><span class="op">/</span>j) 
-    <span class="cf">except</span> <span class="pp">ZeroDivisionError</span>: 
-<span class="bu">print</span>(<span class="st">&quot;Cannot divide by O!&quot;</span>) 
-    <span class="cf">except</span> <span class="pp">NameError</span>: 
-<span class="bu">print</span>(<span class="st">&quot;Something else went wrong&quot;</span>) </code></pre></div>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="cf">try</span>:
+    <span class="bu">print</span>(<span class="dv">0</span><span class="op">/</span>j) 
+<span class="cf">except</span> <span class="pp">ZeroDivisionError</span>: 
+    <span class="bu">print</span>(<span class="st">&quot;Cannot divide by O!&quot;</span>) 
+<span class="cf">except</span> <span class="pp">NameError</span>: 
+    <span class="bu">print</span>(<span class="st">&quot;Something else went wrong&quot;</span>) </code></pre></div>
 <pre><code>Something else went wrong </code></pre>
 <p>For more information see python documentation on <a href="https://docs.python.org/3/tutorial/errors.html">error handling</a>.</p>
 </div>
