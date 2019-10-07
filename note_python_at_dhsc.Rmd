@@ -18,12 +18,13 @@ Use Python 3 via [Jupyter Notebooks](https://jupyter.org/) or [VSCode](https://c
 
 Recommended Packages: 
 
+_Note: This list is under development - If you have a package you would like to suggest / remove please submit an issue._
+
 * Data Analysis
     * [pandas](https://pandas.pydata.org/)
 * Database Interface
     * [SQLAlchemy](https://www.sqlalchemy.org/)
 * Plotting
-    * [Altair](https://altair-viz.github.io/)
     * [matplotlib](https://matplotlib.org/)
 * Machine Learning
     * [sklearn](https://scikit-learn.org)
