@@ -76,7 +76,7 @@ Cannot divide by O!
 
 And to handle different types of errors:
 ```{python eval=FALSE, python.reticulate = FALSE}
-print(O/ j) 
+print(0/j) 
     except ZeroDivisionError: 
 print("Cannot divide by O!") 
     except NameError: 
