@@ -6,6 +6,8 @@ The intent of this section is to act as an index of resources which may be of us
 
 * [Gov Data Science Slack](https://govdatascience.slack.com)
 * [Reproducible Analytical Pipelines](https://ukgovdatascience.github.io/rap-website/)
+* [MoJ Coding Principles](https://github.com/moj-analytical-services/our-coding-standards)
+* [MoJ Coding Standards](https://moj-analytical-services.github.io/our-coding-standards/web/)
 
 ## R
 
