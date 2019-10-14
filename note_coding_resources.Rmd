@@ -52,6 +52,7 @@ The intent of this section is to act as an index of resources which may be of us
 
 * [GDS git style guide](https://gds-way.cloudapps.digital/standards/git.html)
 * [Happy Git with R](https://happygitwithr.com/)
+* [A Quick Guide to Git & GitHub](https://nhs-nss-transforming-publications.github.io/git-guide/)
 
 
 
