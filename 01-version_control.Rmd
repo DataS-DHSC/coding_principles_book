@@ -37,6 +37,8 @@ To make effective use of Git and GitHub:
     * It has a good introduction to [git fundamentals](https://happygitwithr.com/git-intro.html), 
     * ...as well as a set of [daily workflows](https://happygitwithr.com/workflows-intro.html). 
     
+* You could check out [A Quick Guide to Git & GitHub](https://nhs-nss-transforming-publications.github.io/git-guide/), published by the  Information Services Division at National Services Scotland.
+  
 
 * Follow the [GDS Git Style Guide](https://gds-way.cloudapps.digital/standards/git.html)
 

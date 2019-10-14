@@ -5,7 +5,8 @@ This is the focus of the Reproducible Analytical Pipelines community. The RAP co
 
 * [RAP Website](https://ukgovdatascience.github.io/rap-website/)
 * [Udemy Course](https://www.udemy.com/reproducible-analytical-pipelines/)
-
+* [National Services Scotland RAP paper](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf)
+* [National Services Scotland RAP checklist](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Checklist-for-TPP-and-RAP-processes_v0-3.pdf)
 
 ## Automating Pipelines
 You can do this by:
