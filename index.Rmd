@@ -16,9 +16,14 @@ output:
       mathjax: default
     
 ---
+
 # Disclaimer {-}
 
 This is an unapproved draft and does not represent the views of the DHSC.
+
+## Aknowledgements {-}
+
+These principles were inspired by the MOJ [Coding Principles and Standards](https://moj-analytical-services.github.io/our-coding-standards/web/) and developed further by a group at DHSC to produce a version targeted at DHSC Analysts.
 
 # Introduction {-}
 These principles are designed with the aim of improving coding standards and consistency within the department.
