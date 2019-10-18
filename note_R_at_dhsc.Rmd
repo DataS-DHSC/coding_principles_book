@@ -73,6 +73,29 @@ See also:
 * Rbloggers [post on renv](https://www.r-bloggers.com/reproducible-environments/)
 * Rstudio page on combining [renv and docker](https://rstudio.github.io/renv/articles/docker.html)
 
+### Using old versions of packages {#r_checkpoint}
+You may come across code which doesn't work because it depends on a different version of a package to the one you have.
+
+Fortunately, Microsoft keep daily snapshots of CRAN and store them on the [Microsoft R Application Network](https://mran.microsoft.com/timemachine).
+
+The `checkpoint` package from Microsoft lets you use these snapshots to install packages as if it were any day since 2017-07-01.
+
+Simply start your script with:
+```{r eval=FALSE}
+library(checkpoint)
+
+checkpoint(snapshotDate = "2015-01-15",
+           checkpointLocation = getwd()) 
+```
+
+This will download and fetch all the packages as they existed on the given date and install them to a library on your home drive.
+
+Notes:
+
+* If the code depends on `BH` (a lot of tidyverse code will) then this will take some time!
+* By default checkpoint puts packages on your P drive - this will be slow.
+    * You can use the `checkpointLocation` argument to tell checkpoint to use the C drive.
+
 ## Error Handling {#r_errorhandling}
 
 Base R includes the `try()` and `tryCatch()` functions for handling errors. You can find an example of basic use of these on [r-bloggers](https://www.r-bloggers.com/error-handling-in-r/).
