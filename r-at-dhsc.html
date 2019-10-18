@@ -211,7 +211,9 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="C.3" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_default_packages"><i class="fa fa-check"></i><b>C.3</b> Packages</a></li>
 <li class="chapter" data-level="C.4" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_projects"><i class="fa fa-check"></i><b>C.4</b> Project Workflow</a></li>
 <li class="chapter" data-level="C.5" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_package"><i class="fa fa-check"></i><b>C.5</b> Packaging Your Code</a></li>
-<li class="chapter" data-level="C.6" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_dependencies"><i class="fa fa-check"></i><b>C.6</b> Managing Dependencies</a></li>
+<li class="chapter" data-level="C.6" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_dependencies"><i class="fa fa-check"></i><b>C.6</b> Managing Dependencies</a><ul>
+<li class="chapter" data-level="C.6.1" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_checkpoint"><i class="fa fa-check"></i><b>C.6.1</b> Using old versions of packages</a></li>
+</ul></li>
 <li class="chapter" data-level="C.7" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_errorhandling"><i class="fa fa-check"></i><b>C.7</b> Error Handling</a></li>
 <li class="chapter" data-level="C.8" data-path="r-at-dhsc.html"><a href="r-at-dhsc.html#r_tests"><i class="fa fa-check"></i><b>C.8</b> Unit Testing</a></li>
 </ul></li>
@@ -330,6 +332,26 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Rbloggers <a href="https://www.r-bloggers.com/reproducible-environments/">post on renv</a></li>
 <li>Rstudio page on combining <a href="https://rstudio.github.io/renv/articles/docker.html">renv and docker</a></li>
 </ul>
+<div id="r_checkpoint" class="section level3">
+<h3><span class="header-section-number">C.6.1</span> Using old versions of packages</h3>
+<p>You may come across code which doesn’t work because it depends on a different version of a package to the one you have.</p>
+<p>Fortunately, Microsoft keep daily snapshots of CRAN and store them on the <a href="https://mran.microsoft.com/timemachine">Microsoft R Application Network</a>.</p>
+<p>The <code>checkpoint</code> package from Microsoft lets you use these snapshots to install packages as if it were any day since 2017-07-01.</p>
+<p>Simply start your script with:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(checkpoint)
+
+<span class="kw">checkpoint</span>(<span class="dt">snapshotDate =</span> <span class="st">&quot;2015-01-15&quot;</span>,
+           <span class="dt">checkpointLocation =</span> <span class="kw">getwd</span>()) </code></pre></div>
+<p>This will download and fetch all the packages as they existed on the given date and install them to a library on your home drive.</p>
+<p>Notes:</p>
+<ul>
+<li>If the code depends on <code>BH</code> (a lot of tidyverse code will) then this will take some time!</li>
+<li>By default checkpoint puts packages on your P drive - this will be slow.
+<ul>
+<li>You can use the <code>checkpointLocation</code> argument to tell checkpoint to use the C drive.</li>
+</ul></li>
+</ul>
+</div>
 </div>
 <div id="r_errorhandling" class="section level2">
 <h2><span class="header-section-number">C.7</span> Error Handling</h2>
