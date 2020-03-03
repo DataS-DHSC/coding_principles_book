@@ -1,6 +1,6 @@
 # DHSC Coding Principles
 
-See the principles *[HERE](https://mattm-dhsc.github.io/coding_principles_book/)*.
+See the principles *[HERE](https://datas-dhsc.github.io/coding_principles_book/)*.
 
 ## What is this?
 This repository contains a set of R markdown documents which, when rendered produce a bookdown site.
@@ -10,7 +10,7 @@ The site contains a set of 10 principles, targeted at the DHSC analytical commun
 ## Publishing Process
 The code contains [build](_build.sh) and [deploy](_deploy.sh) scripts which are run by [travis](https://travis-ci.org/mattm-dhsc/coding_principles_book).
 
-These scripts render the book, and push the rendered files to a `gh-pages` branch which is then displayed using [github pages](https://mattm-dhsc.github.io/coding_principles_book/).
+These scripts render the book, and push the rendered files to a `gh-pages` branch which is then displayed using [github pages](https://datas-dhsc.github.io/coding_principles_book/).
 
 The scripts adapted from the example scripts provided in the [bookdown example](https://bookdown.org/yihui/bookdown/github.html).
 
