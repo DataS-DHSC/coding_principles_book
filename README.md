@@ -1,6 +1,6 @@
 # DHSC Coding Principles
 
-See the principles *[HERE](https://datas-dhsc.github.io/coding_principles_book/)*.
+See the principles *[HERE](https://datas-dhsc.github.io/coding_principles_book/index.html)*.
 
 ## What is this?
 This repository contains a set of R markdown documents which, when rendered produce a bookdown site.
