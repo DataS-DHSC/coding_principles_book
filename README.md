@@ -1,5 +1,4 @@
 # DHSC Coding Principles
-
 See the principles *[HERE](https://datas-dhsc.github.io/coding_principles_book/)*.
 
 ## What is this?
