@@ -1,6 +1,6 @@
 ---
 title: "DHSC Coding Principles"
-author: "Matthew Malcher  "
+author: "DHSC Office of the Chief Analyst"
 site: bookdown::bookdown_site
 documentclass: book
 output:
@@ -12,7 +12,7 @@ output:
         collapse: section
         scroll_highlight: yes
         after: |
-          <li><a href="https://github.com/mattm-dhsc/coding_principles_book" target="blank">Coding Principles Book on GitHub</a></li>
+          <li><a href="https://github.com/DataS-DHSC/coding_principles_book" target="blank">Coding Principles Book on GitHub</a></li>
       mathjax: default
     
 ---

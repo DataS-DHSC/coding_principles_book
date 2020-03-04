@@ -14,7 +14,7 @@
 
 ## Correct {#ccfc_correct}
 The first priority should always be that the code is correct.
-See the [demonstably correct](#demonsrably_correct) principle.
+See the [demonstrably correct](#demonstrably_correct) principle.
 
 ## Clear {#ccfc_clear}
 It is more valuable to have code that other analysts can quickly understand, than code which runs a little quicker.
