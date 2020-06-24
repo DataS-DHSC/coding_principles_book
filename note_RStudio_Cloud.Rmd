@@ -1,0 +1,76 @@
+# RStudio Cloud {#rstudio_cloud}
+
+RStudio Cloud is a service provided by RStudio. It is a cloud-based instance of RStudio Projects. In its free form, it has limited RAM, but is generally fast and adaptable for quick prototyping. It also allows for integration with Git and Github for version control and QA. 
+
+The below is not a definitive guide to the service, and does not exhaust the many options available. However, it is a baseline set of guidance for teams to collaborate using the service. 
+
+## Setting up
+
+### Creating an account
+
+To start using RStudio Cloud, go to [https://rstudio.cloud/](https://rstudio.cloud/) and click 'Sign Up'. You can use your Google or Github account, or you can create a new account using your '@dhsc' e-mail address. 
+
+Once you have created an account and log in, you will see your Personal Workspace where you can start creating personal projects.
+
+### Creating and managing a team workspace
+
+To collaborate with a team, you can create a team workspace. Note that you can create only one team workspace.
+
+Click the menu button (three horizontal lines next to 'Your Workspace') to open the left-hand menu. There, click 'New Space'. Give your workspace a name and description. 
+
+To add new members to a team workspace, click 'Members' at the top of the screen. Then, on the top right, select 'Add Members' and type their e-mail address.
+
+To change the options on a team workspace, click 'Members at the top of the screen. Then, on the top right, select 'Options'. You can make the workspace invite-only, and change member permissions.
+
+### Setting up your Github account
+
+To use Github for QA and collaboration, you need to [create an account](https://github.com/). 
+
+To use Github with RStudio Cloud, you'll need to create a Personal Access Token (PAT). Go to Settings, and then to 'Developer'. Under ['Personal access tokens'](https://github.com/settings/tokens) you can generate a new token. The token will need all 'repo' permissions at least.
+
+After it's generated, you'll have to save the PAT somewhere. You can put it in a Password Manager, write it down, or save it in a local notepad file. 
+
+## Using someone else's project
+
+One disadvantage of RStudio Cloud is that two people cannot have the same project open at the same time. Before opening someone else's project, make sure they don't urgently need it themselves!
+
+### Without Git version control
+
+You can select any visible project in the team workspace and make changes. 
+
+It is best practice to use [effective comments](#comments) to explain what changes you've made. 
+
+### With Git version control
+
+If you want to make changes in someone else's project, you need to make sure you have permissions to view and edit the Github repository as well.
+
+If you do, you can make changes to the code as you wish. When you're finished, you can select the 'Git' tab in the top-right box in the IDE. You tick every file you want to save changes for, and press 'Commit'. You should add a message describing what changes you've made.
+
+Afterwards, you should press the green 'Push' button. You will then be asked for your username (Github username) and password (Personal Access Token). Once done, the Github repository will reflect your changes!
+
+## Starting your own project
+
+If you want to start a new project, you can create one. Note that there is a limit to the number of projects a free RStudio Cloud workspace can have at once, so don't create unnecessary projects and remove them when you're done with them (and have saved the code elsewhere).
+
+### Without Git version control
+
+In the team workspace, click the blue 'New Project' button. 
+
+Then, install any packages you will need for your project.
+
+### With Git version control
+
+To use Git with a new project, you first have to create a new Github repository. Go to Github and press the [green 'New' button](https://github.com/new) that exists in several places. Give your repository a name, and choose whether it will be Public or Private, whether it will be personal or part of an organisation, and write a description. 
+
+In RStudio Cloud, press the little down-arrow next to 'New Project' and select 'New Project from Git Repo'. Paste the URL of your new repository in. Wait until the project loads.
+
+Once the project has loaded, you need to set a few settings. In the bottom-left R console, click the 'Terminal' tab. There, type these two commands:
+
+* git config --global user.name '<YOUR USERNAME>'
+* git config --global user.email '<YOUR EMAIL'
+
+Afterwards, you can commit, push and pull changes just like with someone else's project using your username and Personal Access Token. 
+
+A more complete guide to using Github with RStudio Cloud is [available here](https://bren.zendesk.com/hc/en-us/articles/360015826731-How-to-connect-RStudio-Cloud-with-Github). 
+
+
