@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Principle 9 Be Reproducible | DHSC Coding Principles</title>
-  <meta name="description" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  <title>E RStudio Cloud | DHSC Coding Principles</title>
+  <meta name="description" content="E RStudio Cloud | DHSC Coding Principles" />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  <meta property="og:title" content="E RStudio Cloud | DHSC Coding Principles" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Principle 9 Be Reproducible | DHSC Coding Principles" />
+  <meta name="twitter:title" content="E RStudio Cloud | DHSC Coding Principles" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="sensible-defaults.html"/>
-<link rel="next" href="data-structure.html"/>
+<link rel="prev" href="rap.html"/>
+
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -256,83 +256,67 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="reproducible" class="section level1">
-<h1><span class="header-section-number">Principle 9</span> Be Reproducible</h1>
-<p>Work in a way which is reproducible. Within the department, analysis is used to enable evidence based decision making. A piece of evidence which you cannot rely on being able to reproduce is not much good. There are many reproducibility pitfalls and it is our responsibility to overcome them.</p>
-<p><strong>You Must</strong> - Keep track of what you have done and document it <a href="reproducible.html#unambiguous_docs">unambiguously</a> so that someone else can recreate it.</p>
-<p><strong>You Should</strong> - Write <a href="reproducible.html#portability">portable</a> code, in a standard <a href="reproducible.html#projects">project structure</a> so that it is <em>easy</em> for someone else to run it.</p>
-<p><strong>You Could</strong> - Turn your code into a <a href="reproducible.html#packages">package / library / module</a>, learn and promote <a href="reproducible.html#rap_section">RAP</a> techniques, or use <a href="reproducible.html#containers">containers</a> to achieve reproducibility.</p>
-<table>
-<thead>
-<tr class="header">
-<th>Related Areas:</th>
-<th><a href="demonstrably-correct.html#demonstrably_correct">Demonstrably Correct</a> <br> <a href="documentation.html#documentation">Documentation</a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<div id="unambiguous_docs" class="section level2">
-<h2><span class="header-section-number">9.1</span> Unambiguous Documentation for Reproducibility</h2>
-<p>To be able to reproduce your analysis a colleague may need the following:</p>
+<div id="rstudio_cloud" class="section level1">
+<h1><span class="header-section-number">E</span> RStudio Cloud</h1>
+<p>RStudio Cloud is a service provided by RStudio. It is a cloud-based instance of RStudio Projects. In its free form, it has limited RAM, but is generally fast and adaptable for quick prototyping. It also allows for integration with Git and Github for version control and QA.</p>
+<p>The below is not a definitive guide to the service, and does not exhaust the many options available. However, it is a baseline set of guidance for teams to collaborate using the service.</p>
+<div id="setting-up" class="section level2">
+<h2><span class="header-section-number">E.1</span> Setting up</h2>
+<div id="creating-an-account" class="section level3">
+<h3><span class="header-section-number">E.1.1</span> Creating an account</h3>
+<p>To start using RStudio Cloud, go to <a href="https://rstudio.cloud/" class="uri">https://rstudio.cloud/</a> and click 'Sign Up'. You can use your Google or Github account, or you can create a new account using your '<span class="citation">@dhsc</span>' e-mail address.</p>
+<p>Once you have created an account and log in, you will see your Personal Workspace where you can start creating personal projects.</p>
+</div>
+<div id="creating-and-managing-a-team-workspace" class="section level3">
+<h3><span class="header-section-number">E.1.2</span> Creating and managing a team workspace</h3>
+<p>To collaborate with a team, you can create a team workspace. Note that you can create only one team workspace.</p>
+<p>Click the menu button (three horizontal lines next to 'Your Workspace') to open the left-hand menu. There, click 'New Space'. Give your workspace a name and description.</p>
+<p>To add new members to a team workspace, click 'Members' at the top of the screen. Then, on the top right, select 'Add Members' and type their e-mail address.</p>
+<p>To change the options on a team workspace, click 'Members at the top of the screen. Then, on the top right, select 'Options'. You can make the workspace invite-only, and change member permissions.</p>
+</div>
+<div id="setting-up-your-github-account" class="section level3">
+<h3><span class="header-section-number">E.1.3</span> Setting up your Github account</h3>
+<p>To use Github for QA and collaboration, you need to <a href="https://github.com/">create an account</a>.</p>
+<p>To use Github with RStudio Cloud, you'll need to create a Personal Access Token (PAT). Go to Settings, and then to 'Developer'. Under <a href="https://github.com/settings/tokens">'Personal access tokens'</a> you can generate a new token. The token will need all 'repo' permissions at least.</p>
+<p>After it's generated, you'll have to save the PAT somewhere. You can put it in a Password Manager, write it down, or save it in a local notepad file.</p>
+</div>
+</div>
+<div id="using-someone-elses-project" class="section level2">
+<h2><span class="header-section-number">E.2</span> Using someone else's project</h2>
+<p>One disadvantage of RStudio Cloud is that two people cannot have the same project open at the same time. Before opening someone else's project, make sure they don't urgently need it themselves!</p>
+<div id="without-git-version-control" class="section level3">
+<h3><span class="header-section-number">E.2.1</span> Without Git version control</h3>
+<p>You can select any visible project in the team workspace and make changes.</p>
+<p>It is best practice to use <a href="comments.html#comments">effective comments</a> to explain what changes you've made.</p>
+</div>
+<div id="with-git-version-control" class="section level3">
+<h3><span class="header-section-number">E.2.2</span> With Git version control</h3>
+<p>If you want to make changes in someone else's project, you need to make sure you have permissions to view and edit the Github repository as well.</p>
+<p>If you do, you can make changes to the code as you wish. When you're finished, you can select the 'Git' tab in the top-right box in the IDE. You tick every file you want to save changes for, and press 'Commit'. You should add a message describing what changes you've made.</p>
+<p>Afterwards, you should press the green 'Push' button. You will then be asked for your username (Github username) and password (Personal Access Token). Once done, the Github repository will reflect your changes!</p>
+</div>
+</div>
+<div id="starting-your-own-project" class="section level2">
+<h2><span class="header-section-number">E.3</span> Starting your own project</h2>
+<p>If you want to start a new project, you can create one. Note that there is a limit to the number of projects a free RStudio Cloud workspace can have at once, so don't create unnecessary projects and remove them when you're done with them (and have saved the code elsewhere).</p>
+<div id="without-git-version-control-1" class="section level3">
+<h3><span class="header-section-number">E.3.1</span> Without Git version control</h3>
+<p>In the team workspace, click the blue 'New Project' button.</p>
+<p>Then, install any packages you will need for your project.</p>
+</div>
+<div id="with-git-version-control-1" class="section level3">
+<h3><span class="header-section-number">E.3.2</span> With Git version control</h3>
+<p>To use Git with a new project, you first have to create a new Github repository. Go to Github and press the <a href="https://github.com/new">green 'New' button</a> that exists in several places. Give your repository a name, and choose whether it will be Public or Private, whether it will be personal or part of an organisation, and write a description.</p>
+<p>In RStudio Cloud, press the little down-arrow next to 'New Project' and select 'New Project from Git Repo'. Paste the URL of your new repository in. Wait until the project loads.</p>
+<p>Once the project has loaded, you need to set a few settings. In the bottom-left R console, click the 'Terminal' tab. There, type these two commands:</p>
 <ul>
-<li>The right copy of the code</li>
-<li>The right versions of any dependencies (i.e. libraries used in the code)</li>
-<li>The platform on which code is run
-<ul>
-<li>operating system</li>
-<li>folder structure</li>
-<li>machine specifications</li>
-</ul></li>
-<li>The source data, or details of how to get it.</li>
+<li>git config --global user.name '<YOUR USERNAME>'</li>
+<li>git config --global user.email '&lt;YOUR EMAIL'</li>
 </ul>
-<p>At the most basic level, documenting all of these will go a long way to making your analysis reproducible. It might not make it <em>easy</em> to reproduce however.</p>
-</div>
-<div id="portability" class="section level2">
-<h2><span class="header-section-number">9.2</span> Portability</h2>
-<p>There are some simple thing you can do to improve the chance that your code runs on other computers:</p>
-<ul>
-<li>Use relative paths, not absolute paths. (<a href="https://en.wikipedia.org/wiki/Path_%28computing%29#Absolute_and_relative_paths">Wikipedia - Absolute and Relative Paths</a>).</li>
-<li>Use a standard and consistent structure for organising your work. See <a href="reproducible.html#projects">Projects and Environments</a> for more details.</li>
-</ul>
-</div>
-<div id="projects" class="section level2">
-<h2><span class="header-section-number">9.3</span> Project Structure</h2>
-<p>Most languages offer tools and templates for a project based workflow. Typically these include a way of organising the following components:</p>
-<ul>
-<li>Source Data</li>
-<li>Code</li>
-<li>Outputs</li>
-<li>Environment / Dependencies</li>
-<li>Documentation</li>
-</ul>
-<p>By following a standard template for these components you can take advantage of workflow tools provided by your IDE which make it easier to:</p>
-<ul>
-<li>Version Control your work</li>
-<li>Organise your code and source data</li>
-<li>Refactoring and improving your code</li>
-<li>Producing documentation</li>
-<li>Control your environment and dependencies</li>
-</ul>
-<p>All of these things are good for sharing or collaborating with others.</p>
-<p>See <a href="r-at-dhsc.html#r_projects">R at DHSC</a> and <a href="py-at-dhsc.html#py_projects">Python at DHSC</a> for more information.</p>
-</div>
-<div id="rap_section" class="section level2">
-<h2><span class="header-section-number">9.4</span> Reproducible Analytical Pipelines</h2>
-<p>There is a government community dedicated to the production of reproducible analysis. See <a href="rap.html#rap">Reproducible Analytical Pipelines</a> for more.</p>
-</div>
-<div id="packages" class="section level2">
-<h2><span class="header-section-number">9.5</span> Packages and Modules</h2>
-<p>Most languages have a standard structure which is used to share code and documentation with other people. You will likely have used code in this structure (libraries / packages / modules) when performing your analysis. Typically these structures include documentation, information about dependencies, and tests.</p>
-<p>There is no reason you can't use the same approach to sharing your analysis!</p>
-<p>See <a href="#r_packages">R at DHSC</a> and <a href="py-at-dhsc.html#py_packages">Python at DHSC</a> for more information.</p>
-</div>
-<div id="containers" class="section level2">
-<h2><span class="header-section-number">9.6</span> Containers / Docker</h2>
-<p>Containers allow you to manage the whole environment which a bit of code runs in. They are powerful but perhaps more technically involved than packaging your code or using project structures to manage your environment.</p>
-<p><a href="https://www.docker.com/">Docker</a> is a <a href="https://en.wikipedia.org/wiki/OS-level_virtualisation">containerisation</a> platform, which lets you reproduce environments with a wider scope than just the packages present. With Docker you can manage the entire environment from the operating system and network up (including any packages).</p>
-<p>You can use tools such as <a href="https://docs.docker.com/compose/">docker-compose</a> and <a href="https://kubernetes.io/">Kubernetes</a> to manage groups of containers relative to one another.</p>
+<p>Afterwards, you can commit, push and pull changes just like with someone else's project using your username and Personal Access Token.</p>
+<p>A more complete guide to using Github with RStudio Cloud is <a href="https://bren.zendesk.com/hc/en-us/articles/360015826731-How-to-connect-RStudio-Cloud-with-Github">available here</a>.</p>
 
+</div>
 </div>
 </div>
             </section>
@@ -340,8 +324,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
           </div>
         </div>
       </div>
-<a href="sensible-defaults.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-structure.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="rap.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
