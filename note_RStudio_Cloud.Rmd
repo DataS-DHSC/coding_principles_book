@@ -4,6 +4,14 @@ RStudio Cloud is a service provided by RStudio. It is a cloud-based instance of 
 
 The below is not a definitive guide to the service, and does not exhaust the many options available. However, it is a baseline set of guidance for teams to collaborate using the service. 
 
+## Information security
+
+NOTE: 
+
+* RStudio Cloud is not signed off to use with sensitive data, including personal or unpublished data. 
+* Make sure you have sign-off from your superiors before uploading data to RStudio Cloud. 
+* Never save or commit keys or secrets to RStudio Cloud.
+
 ## Setting up
 
 ### Creating an account
