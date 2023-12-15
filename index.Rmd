@@ -5,23 +5,23 @@ site: bookdown::bookdown_site
 documentclass: book
 output:
   #bookdown::pdf_book: default
-  bookdown::gitbook: 
+  bookdown::gitbook:
     config:
-      download: null 
+      download: null
       toc:
         collapse: section
         scroll_highlight: yes
         after: |
           <li><a href="https://github.com/DataS-DHSC/coding_principles_book" target="blank">Coding Principles Book on GitHub</a></li>
       mathjax: default
-    
+
 ---
 
 # Disclaimer {-}
 
 This is an unapproved draft and does not represent the views of the DHSC.
 
-## Aknowledgements {-}
+## Acknowledgements {-}
 
 These principles were inspired by the MOJ [Coding Principles and Standards](https://moj-analytical-services.github.io/our-coding-standards/web/) and developed further by a group at DHSC to produce a version targeted at DHSC Analysts.
 
@@ -50,7 +50,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:versioncontrol-should) Use standard tools ([Git](#git) & [GitHub](#github)) to help you version control code.
 
-(ref:versioncontrol-could) With your team, agree and design a version control [workflow](#workflow_vc). Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc). 
+(ref:versioncontrol-could) With your team, agree and design a version control [workflow](#workflow_vc). Use ([Git](#git) & [GitHub](#github)) collaboratively and [effectively](#effective_vc).
 
 <!-- Print -->
 
@@ -65,7 +65,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:easytoread-must) Follow the [DHSC adopted style](#style_guides) for your language, use [meaningful names](#meaningful_names) and avoid [overlaps](#dont_overlap).
 
-(ref:easytoread-should) Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide. 
+(ref:easytoread-should) Use a [linter](https://en.wikipedia.org/wiki/Lint_%28software%29) or code formatter to ensure that your code conforms to the style guide.
 
 (ref:easytoread-could) Review your code with colleagues to make ensure your names and style promote understanding.
 
@@ -80,7 +80,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:correctclearconcise-intro) Write code with your colleagues priorities in mind. They need your code to work correctly, and they will have to understand and check it before they can benefit from it being fast or concise.
 
-(ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and that it is [clear](#ccfc_clear) how it functions. 
+(ref:correctclearconcise-must) Ensure that your code is [correct](#ccfc_correct) and that it is [clear](#ccfc_clear) how it functions.
 
 (ref:correctclearconcise-should) Make your code [fast](#ccfc_fast) and [concise](#ccfc_concise), where possible _without_ sacrificing correctness, clarity or excessive resource! Record choices made to achieve this balance.
 
@@ -101,7 +101,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:flexiblecode-should) Think about, and document the way your code might break with different inputs. Include [input validation](#input_validation) to catch mistakes earlier in your code and make it easier to repurpose.
 
-(ref:flexiblecode-could) Implement and test thorough [error handling](#error_handling). Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have. 
+(ref:flexiblecode-could) Implement and test thorough [error handling](#error_handling). Consider writing and sharing general purposes 'tool' code, especially if you solve a problem someone else might have.
 
 <!-- Print -->
 
@@ -114,7 +114,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 (ref:comments-intro) Comment your code so that it's function is clear. Well targeted comments make it less likely that avoidable mistakes are made when using or updating your code. Colleagues and your future self will thank you.
 
-(ref:comments-must) Write and maintain accurate comments as you code. 
+(ref:comments-must) Write and maintain accurate comments as you code.
 
 (ref:comments-should) Think carefully about _why_ you are leaving comments, what to capture, and what belongs elsewhere (in documentation).
 
@@ -129,7 +129,7 @@ The principles are designed to be achievable by all DHSC analysts producing code
 
 <!-- Define -->
 
-(ref:documentation-intro) Maintain documentation for your code. Code is _not_ self documenting and code without documentation won't be useful later. You need to capture higher level context such as what the code is for, why it is written a certain way and what the inputs and outputs are. 
+(ref:documentation-intro) Maintain documentation for your code. Code is _not_ self documenting and code without documentation won't be useful later. You need to capture higher level context such as what the code is for, why it is written a certain way and what the inputs and outputs are.
 
 (ref:documentation-must) Produce documentation in line with [Aqua book guidance](#aqua).
 

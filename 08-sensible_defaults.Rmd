@@ -14,11 +14,11 @@
 ## General Defaults {#general_defaults}
 * Use 'Tidy' data. See the [tidy data principle](#data_structure)!
 * Use [git](#git) for version control of code (rather than SVN, Mercurial etc). See the [version control principle](#version_control)
-* Use preexisting packages and code before writing your own.
+* Use pre-existing packages and code before writing your own.
 * Use popular, mature and well supported packages in preference to up & coming ones.
 
 ## Language Specific Defaults:
-In addition to the general principles, please see the language specifc pages:
+In addition to the general principles, please see the language specific pages:
 
 * [Python at DHSC](#py_at_dhsc)
 * [R at DHSC](#r_at_dhsc)

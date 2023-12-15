@@ -28,7 +28,7 @@ Use tidy data structures as part of your work. You should attempt to convert inc
 Any data that is output that may be used in other projects should be in tidy format as well as any other required formats.
 
 ## Data Types and Structures {#data_types}
-Data *types* are the basic units which your language uses to store data, things like integers, doubles, strings and logical data. Typically you are working with data frames, arrays, matricies or lists. These hold multiple items of data in a data *structure*.
+Data *types* are the basic units which your language uses to store data, things like integers, doubles, strings and logical data. Typically you are working with data frames, arrays, matrices or lists. These hold multiple items of data in a data *structure*.
 
 Different types and structures are used for different things, and have different capabilities. To be effective, know about the data types and structures available to you and use the right ones for the job!
 

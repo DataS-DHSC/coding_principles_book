@@ -29,10 +29,10 @@ You may find that you have produced code which takes some time to run.
 If you expect to run it many times, _then_ its time to think about how you could make things faster.
 But don't fall into the trap of optimising before you need to. Ask yourself how much time you are going to save, if it’s a couple of mins, but the optimising takes you several days, is it worth it?
 
-For most languages there are [profiling](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) tools you can use to understand resource usage when you need to. 
+For most languages there are [profiling](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) tools you can use to understand resource usage when you need to.
 
 ## Concise {#ccfc_concise}
 Keeping the amount of code you use to achieve a goal at a minimum can often be a good thing.
 There is less code to go wrong or debug, less to explain, style and document.
 But, remember that concision is less important than correctness, clarity and speed.
-Don't make it shorter than it needs to be, and think of the tradeoff with clarity and flexibility.
+Don't make it shorter than it needs to be, and think of the trade-off with clarity and flexibility.

@@ -31,3 +31,5 @@ rsconnect/
 docs/*.html
 #readme rendered
 *README.html
+#VSCode
+.vscode/
