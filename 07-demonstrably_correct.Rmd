@@ -3,17 +3,17 @@
 (ref:demonstrablycorrect-intro)
 
  **You Must** - (ref:demonstrablycorrect-must)
- 
+
  **You Should** - (ref:demonstrablycorrect-should)
 
  **You Could** - (ref:demonstrablycorrect-could)
- 
+
  |Related Areas: 	| [Version Control](#version_control) <br> [Be Reproducible](#reproducible) |
 |---------------	|------------------------------------------------------------|
 
 ## Quality Assurance Applies to Code {#qa_code_too}
-Just because you have written code rather then making a spreadsheet doesnt mean your analysis is correct.
-Code is not exempt from Quality Assurance processes. 
+Just because you have written code rather then making a spreadsheet doesn't mean your analysis is correct.
+Code is not exempt from Quality Assurance processes.
 As with any other analysis you need to record evidence that your code is:
 
 * doing the right thing
